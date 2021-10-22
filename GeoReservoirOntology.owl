@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology"
-     versionIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/1.1">
+     versionIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/1.2">
     <Prefix name="" IRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -60,16 +60,18 @@
         <Literal xml:lang="en">Cited references:
 
 1. Abel, M., Perrin, M., Carbonera, J.L.: Ontological analysis for information integration in geomodeling. Earth Science Informatics 8, 21–36 (2015)
-2. Carbonera, J.L., Abel, M., Scherer, C.M.S.: Visual interpretation of events in petroleum exploration: An approach supported by well-founded ontologies. Expert Systems With Applications 42, 2749–2763 (2015)
-3. Cullis, S., Colombera, L., Patacci, M., McCaffrey, W.D.: Hierarchical classifications of the sedimentary architecture of deep-marine depositional systems. Earth-Science Reviews 179, 38–71 (2018)
-4. De Ros, L.F., Goldberg, K.: Reservoir petrofacies: A tool for quality characterization and prediction. In: AAPG Annual Conference and Exhibition. Long Beach (2007)
-5. Garcia, L.F., Carbonera, J.L., Rodrigues, F.H., Antunes, C.R., Abel, M.: What rocks are made of: Towards an ontological pattern for material constitution in the geological domain. In: Laender, A.H.F., Pernici, B., Lim, E.P., Oliveira, J.P.M. (eds.) ER: 38th International Conference on Conceptual Modeling. pp. 275–286. Springer, Cham (2019)
-6. Guarino, N., Welty, C.A.: An overview of ontoclean. In: Staab, S., Studer, R. (eds.) Handbook on Ontologies, pp. 151–171. Springer, Berlin, Heidelberg (2004)
-7. McHargue, T., Pyrcz, M.J., Sullivan, M.D., Clark, J.D., Fildani, A., Romans, B.W., Covault, J.A., Levy, M., Posamentier, H.W., Drinkwater, N.J.: Architecture of turbidite channel systems on the continental slope: Patterns and predictions. Marine and Petroleum Geology 28, 728–743 (2011)
-8. Middleton, G.V.: Johannes walther’s law of the correlation of facies. Bulletin of the Geological Society of America 84, 979–988 (1973)
-9. Nichols, G.: Sedimentology and Stratigraphy. Wiley-Blackwell, Chichester, 2nd edn. (2009)
-10. Rovetto, R.: The shape of shapes: An ontological exploration. In: Hastings, J., Kutz, O., Bhatt, M., Borgo, S. (eds.) Proceedings of the First Interdisciplinary Workshop on SHAPES. Karlsruhe (2011), http://ceur-ws.org/Vol-812/
-11. Walker, R.G., James, N.P.: Facies Models: Response to Sea Level Change. Geological Association of Canada, St. John’s (1992)</Literal>
+2. Arp, R., Smith, B., Spear, A.D.: Building Ontologies with Basic Formal Ontology. The MIT Press, Cambridge, MA (2015)
+3. Carbonera, J.L., Abel, M., Scherer, C.M.S.: Visual interpretation of events in petroleum exploration: An approach supported by well-founded ontologies. Expert Systems With Applications 42, 2749–2763 (2015)
+4. Cullis, S., Colombera, L., Patacci, M., McCaffrey, W.D.: Hierarchical classifications of the sedimentary architecture of deep-marine depositional systems. Earth-Science Reviews 179, 38–71 (2018)
+5. De Ros, L.F., Goldberg, K.: Reservoir petrofacies: A tool for quality characterization and prediction. In: AAPG Annual Conference and Exhibition. Long Beach (2007)
+6. Garcia, L.F., Abel, M., Perrin, M., Alvarenga, R.S.: The geocore ontology: A core ontology for general use in geology. Computers &amp; Geosciences 135 (2020)
+7. Garcia, L.F., Carbonera, J.L., Rodrigues, F.H., Antunes, C.R., Abel, M.: What rocks are made of: Towards an ontological pattern for material constitution in the geological domain. In: Laender, A.H.F., Pernici, B., Lim, E.P., Oliveira, J.P.M. (eds.) ER: 38th International Conference on Conceptual Modeling. pp. 275–286. Springer, Cham (2019)
+8. Guarino, N., Welty, C.A.: An overview of ontoclean. In: Staab, S., Studer, R. (eds.) Handbook on Ontologies, pp. 151–171. Springer, Berlin, Heidelberg (2004)
+9. McHargue, T., Pyrcz, M.J., Sullivan, M.D., Clark, J.D., Fildani, A., Romans, B.W., Covault, J.A., Levy, M., Posamentier, H.W., Drinkwater, N.J.: Architecture of turbidite channel systems on the continental slope: Patterns and predictions. Marine and Petroleum Geology 28, 728–743 (2011)
+10. Middleton, G.V.: Johannes walther’s law of the correlation of facies. Bulletin of the Geological Society of America 84, 979–988 (1973)
+11. Nichols, G.: Sedimentology and Stratigraphy. Wiley-Blackwell, Chichester, 2nd edn. (2009)
+12. Rovetto, R.: The shape of shapes: An ontological exploration. In: Hastings, J., Kutz, O., Bhatt, M., Borgo, S. (eds.) Proceedings of the First Interdisciplinary Workshop on SHAPES. Karlsruhe (2011), http://ceur-ws.org/Vol-812/
+13. Walker, R.G., James, N.P.: Facies Models: Response to Sea Level Change. Geological Association of Canada, St. John’s (1992)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -638,7 +640,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFRGS:GeoReservoirOntology_channel_unit</IRI>
-        <Literal xml:lang="en">In this work, we decided not to model the named hierarchical scales as entities (e.g., Channel Element, Channel Complex, Channel Complex Set - McHargue et al., 2011) because there exists a wide variety of hierarchical schemes in the literature, and they are not necessarily interoperable (Cullis et al., 2018). Instead, we focus on the fact that units can be fractally nested: a unit can be a Proper Spatial Part Of another unit, which can be a Proper Spatial Part Of another unit, and so forth. We consider that this approach solves the problem of implementing a solution for the repeatability of the geological objects in multiple scales. As so, a Channel Unit can be decomposed in other Channel Units many times as necessary, keeping the representation structure. In the future, we can study the integration of hierarchical schemes and try to infer scales from the spatial relations.</Literal>
+        <Literal xml:lang="en">In this work, we decided not to model the named hierarchical scales as entities (e.g., Channel Element, Channel Complex, Channel Complex Set - McHargue et al., 2011) because there exists a wide variety of hierarchical schemes in the literature, and they are not necessarily interoperable (Cullis et al., 2018). Instead, we focus on the fact that depositional units can be fractally nested: a unit can be a Proper Spatial Part Of another unit, which can be a Proper Spatial Part Of another unit, and so forth. This approach solves the problem of supporting the repeated geological objects&apos; description in multiple scales. As so, a Channel Unit can be decomposed in other Channel Units many times as necessary, keeping the representation structure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -653,7 +655,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_depositional_system</IRI>
-        <Literal xml:lang="en">An Object Aggregate whose members are mereotopologically-linked Depositional Units.</Literal>
+        <Literal xml:lang="en">An Object Aggregate whose members are mereotopologically connected Depositional Units.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -699,6 +701,11 @@
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_facies</IRI>
         <Literal xml:lang="en">A pattern of properties of Geological Objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UFRGS:GeoReservoirOntology_facies</IRI>
+        <Literal xml:lang="en">Considering facies as generically dependent continuants is a controversial issue. We are taking in account that geologists consider structures as patterns that can be recognized in several distinct deposits, such as a cross stratification pattern that indicates tractive depositional currents. Naturally this pattern will be materialized in a specific particular rock as a specific dependent continuant that concretizes the generic one (Arp et al., 2015). For an extensive discussion on this issue, see Garcia et al. (2020).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -778,7 +785,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFRGS:GeoReservoirOntology_levee_unit</IRI>
-        <Literal xml:lang="en">This term refers to the geomorphological association of some wegde-shaped unit with some channel unit, even if the channel does not exist at the moment of the observation by the geologist and the levee is probabilistically identified by tendencies (e.g., typical facies). In other words, the term &quot;levee&quot; ontologicallly denotes this relation even though it cannot be deterministically observed.</Literal>
+        <Literal xml:lang="en">This term refers to the geomorphological association of some wegde-shaped unit with some channel unit, even if the channel does not exist at the moment of the observation by the geologist and the levee is probabilistically identified by tendencies (e.g., typical facies). In other words, the term &quot;levee&quot; ontologicallly denotes this relation even if it cannot be deterministically observed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
