@@ -6,13 +6,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology"
-     versionIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/1.1">
+     versionIRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/2.0">
     <Prefix name="" IRI="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl</Import>
     <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology</Import>
     <Import>https://www.inf.ufrgs.br/bdi/ontologies/geologicalspatialrelationsontology</Import>
     <Annotation>
@@ -80,7 +82,22 @@
         <Literal xml:lang="en">We acknowledge the Brazilian funding agencies CNPq and CAPES for financing this work and the Research Centre of Petrobras (CENPES) for collaborating on this project.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_channel_geometry"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_bed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_bioturbation_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_body_of_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_carbonate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_surface"/>
@@ -89,13 +106,22 @@
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_unit"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_deformation_structure"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_dome_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_evaporite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_facies"/>
@@ -104,7 +130,22 @@
         <Class IRI="#UFRGS:GeoReservoirOntology_facies_association"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_fossil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geological_description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geological_occurrence"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_igneous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_layer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_length"/>
@@ -113,16 +154,22 @@
         <Class IRI="#UFRGS:GeoReservoirOntology_levee_unit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_lobe_geometry"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_lobe_unit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_mound_geometry"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_metamorphic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_mound_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_organic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_overbank_unit"/>
@@ -143,13 +190,28 @@
         <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_structure"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_siliciclastic"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_sinuosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_strata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_system_tract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:GeoReservoirOntology_tectonic_structure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_thickness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:GeoReservoirOntology_wedge_geometry"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_top_base_structure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:GeoReservoirOntology_width"/>
@@ -164,46 +226,184 @@
         <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_alluvial_fan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_amalgamated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_conglomerate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_continental_shelf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_continental_slope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_cross_stratification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_cryptic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_deltaic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_diamictite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_eolian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_erosion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_erosive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_estuarine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_faulted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_fluvial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_fold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_glacial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_gradational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_heterolite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_irregular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lacustrine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lamination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_concave_convex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_mudstone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sandstone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sheet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sigmoidal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_siltiste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_slump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_submarine_fan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_tabular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_tidal_flats"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_undefined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_wedge_shape"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoReservoirOntology_channel_geometry"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_cryptic"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_erosive"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_faulted"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_gradational"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sharp"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_undefined"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_body_of_rock"/>
         <ObjectIntersectionOf>
-            <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-            <DataAllValuesFrom>
-                <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-                <DataOneOf>
-                    <Literal>channel</Literal>
-                </DataOneOf>
-            </DataAllValuesFrom>
+            <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_constituted_by"/>
+                <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoReservoirOntology_lobe_geometry"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-            <DataAllValuesFrom>
-                <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-                <DataOneOf>
-                    <Literal>lobe</Literal>
-                </DataOneOf>
-            </DataAllValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_deformation_structure"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_amalgamated"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_erosion"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_fold"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_slump"/>
+        </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoReservoirOntology_mound_geometry"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-            <DataAllValuesFrom>
-                <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-                <DataOneOf>
-                    <Literal>mound</Literal>
-                </DataOneOf>
-            </DataAllValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_alluvial_fan"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_continental_shelf"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_continental_slope"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_deltaic"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_eolian"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_estuarine"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_fluvial"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_glacial"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lacustrine"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_submarine_fan"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_tidal_flats"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_irregular"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_concave_convex"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sheet"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sigmoidal"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_tabular"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_wedge_shape"/>
+        </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
@@ -219,17 +419,69 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#UFRGS:GeoReservoirOntology_wedge_geometry"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-            <DataAllValuesFrom>
-                <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-                <DataOneOf>
-                    <Literal>wedge</Literal>
-                </DataOneOf>
-            </DataAllValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_structure"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_cross_stratification"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_lamination"/>
+        </ObjectOneOf>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_siliciclastic"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_conglomerate"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_diamictite"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_heterolite"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_mudstone"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sandstone"/>
+            <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_siltiste"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
+            <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
+            <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_body_of_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <ObjectUnionOf>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_basin"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_bed"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_bioturbation_structure"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_carbonate"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_surface"/>
         <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_boundary"/>
@@ -243,14 +495,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_channel_unit"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_channel_geometry"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_unit"/>
@@ -260,19 +505,16 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_chemical"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_deformation_structure"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
-        <ObjectMinCardinality cardinality="2">
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002351"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        </ObjectMinCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
@@ -319,6 +561,14 @@
             <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
             <Datatype abbreviatedIRI="xsd:decimal"/>
         </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_dome_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_evaporite"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_facies"/>
@@ -343,60 +593,28 @@
         </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_fossil"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geological_description"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geological_occurrence"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000080"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        </ObjectAllValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_igneous"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000080"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-            <DataOneOf>
-                <Literal>channel</Literal>
-                <Literal>irregular</Literal>
-                <Literal>lens</Literal>
-                <Literal>lobe</Literal>
-                <Literal>mound</Literal>
-                <Literal>scour</Literal>
-                <Literal>sheet</Literal>
-                <Literal>sigmoid</Literal>
-                <Literal>waveform</Literal>
-                <Literal>wedge</Literal>
-                <Literal>wing</Literal>
-            </DataOneOf>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#UFRGS:GeoReservoirOntology_has_quality_value"/>
-            <DataOneOf>
-                <Literal>channel</Literal>
-                <Literal>irregular</Literal>
-                <Literal>lens</Literal>
-                <Literal>lobe</Literal>
-                <Literal>mound</Literal>
-                <Literal>scour</Literal>
-                <Literal>sheet</Literal>
-                <Literal>sigmoid</Literal>
-                <Literal>waveform</Literal>
-                <Literal>wedge</Literal>
-                <Literal>wing</Literal>
-            </DataOneOf>
-        </DataExactCardinality>
+        <Class IRI="#UFRGS:GeoReservoirOntology_layer"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_length"/>
@@ -404,40 +622,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_levee_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_levee_unit"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_wedge_geometry"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_body_of_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <ObjectUnionOf>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_lobe_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_lobe_unit"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_lobe_geometry"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_metamorphic"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_mound_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_mound_unit"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000086"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_mound_geometry"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_organic"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_overbank_unit"/>
-        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_sediment"/>
@@ -448,11 +674,16 @@
         <Class IRI="#UFRGS:GeoReservoirOntology_facies"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_facies"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010001"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        </ObjectAllValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_geological_object"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <ObjectUnionOf>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+                    <Class IRI="#UFRGS:GeoReservoirOntology_lithostratigraphic_unit"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_rock"/>
@@ -463,11 +694,12 @@
         <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#UFRGS:GeoReservoirOntology_sedimentary_structure"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010001"/>
-            <Class IRI="#UFRGS:GeoReservoirOntology_depositional_unit"/>
-        </ObjectAllValuesFrom>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sequence"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_siliciclastic"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_sinuosity"/>
@@ -512,19 +744,85 @@
         </DataAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_strata"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_system_tract"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_allostratigraphic_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_tectonic_structure"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_thickness"/>
         <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:GeoReservoirOntology_top_base_structure"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UFRGS:GeoReservoirOntology_width"/>
         <Class IRI="#UFRGS:GeoReservoirOntology_dimension"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_bed"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_layer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_carbonate"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_chemical"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_evaporite"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_igneous"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_metamorphic"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_organic"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_siliciclastic"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#UFRGS:GeoReservoirOntology_channel_unit"/>
         <Class IRI="#UFRGS:GeoReservoirOntology_levee_unit"/>
         <Class IRI="#UFRGS:GeoReservoirOntology_lobe_unit"/>
         <Class IRI="#UFRGS:GeoReservoirOntology_mound_unit"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:GeoReservoirOntology_sequence"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_strata"/>
+        <Class IRI="#UFRGS:GeoReservoirOntology_system_tract"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_continental_slope"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_lithology"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_diamictite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_fluvial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_siliciclastic"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_mudstone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_geometry"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_sheet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_deformation_structure"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_slump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFRGS:GeoReservoirOntology_depositional_system"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_tidal_flats"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact"/>
+        <NamedIndividual IRI="#UFRGS:GeoReservoirOntology_undefined"/>
+    </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0010001"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
@@ -601,14 +899,94 @@
         <Literal>generically depends on</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoReservoirOntology_channel_geometry</IRI>
-        <Literal xml:lang="en">A synonym for Geometry with “channel” value</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_allostratigraphic_unit</IRI>
+        <Literal xml:lang="en">allostratigraphic unit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoReservoirOntology_channel_geometry</IRI>
-        <Literal xml:lang="en">channel geometry</Literal>
+        <IRI>#UFRGS:GeoReservoirOntology_allostratigraphic_unit</IRI>
+        <Literal xml:lang="pt">unidade aloestratigráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_alluvial_fan</IRI>
+        <Literal xml:lang="en">alluvial fan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_alluvial_fan</IRI>
+        <Literal xml:lang="pt">leque aluvial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_amalgamated</IRI>
+        <Literal xml:lang="pt">amalgamado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_amalgamated</IRI>
+        <Literal xml:lang="en">amalgamated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain</IRI>
+        <Literal xml:lang="en">barrier-island and strand plain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain</IRI>
+        <Literal xml:lang="pt">ilha de barreira e planície costeira</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_basin</IRI>
+        <Literal xml:lang="pt">bacia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_basin</IRI>
+        <Literal xml:lang="en">basin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_bed</IRI>
+        <Literal xml:lang="en">bed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_bed</IRI>
+        <Literal xml:lang="pt">lâmina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_bioturbation_structure</IRI>
+        <Literal xml:lang="en">bioturbation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_bioturbation_structure</IRI>
+        <Literal xml:lang="pt">bioturbação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_body_of_rock</IRI>
+        <Literal xml:lang="en">body of rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_body_of_rock</IRI>
+        <Literal xml:lang="pt">corpo de rocha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_carbonate</IRI>
+        <Literal xml:lang="en">carbonate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_carbonate</IRI>
+        <Literal xml:lang="pt">carbonática</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -643,12 +1021,97 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_channel_unit</IRI>
+        <Literal xml:lang="pt">canal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_channel_unit</IRI>
         <Literal xml:lang="en">channel unit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
         <IRI>#UFRGS:GeoReservoirOntology_channel_unit</IRI>
         <Literal>R+ I+ O- U+ ED-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_chemical</IRI>
+        <Literal xml:lang="en">chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_chemical</IRI>
+        <Literal xml:lang="pt">química</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_conglomerate</IRI>
+        <Literal xml:lang="pt">conglomerado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_conglomerate</IRI>
+        <Literal xml:lang="en">conglomerate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_continental_shelf</IRI>
+        <Literal xml:lang="en">continental shelf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_continental_shelf</IRI>
+        <Literal xml:lang="pt">plataforma continental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_continental_slope</IRI>
+        <Literal xml:lang="en">continental slope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_continental_slope</IRI>
+        <Literal xml:lang="pt">declive continental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_cross_stratification</IRI>
+        <Literal xml:lang="en">cross stratification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_cross_stratification</IRI>
+        <Literal xml:lang="pt">estratificação cruzada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_cryptic</IRI>
+        <Literal xml:lang="en">cryptic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_cryptic</IRI>
+        <Literal xml:lang="pt">críptico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_deformation_structure</IRI>
+        <Literal xml:lang="en">deformation structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_deformation_structure</IRI>
+        <Literal xml:lang="pt">estrutura de deformação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_deltaic</IRI>
+        <Literal xml:lang="en">deltaic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_deltaic</IRI>
+        <Literal xml:lang="pt">deltaico</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -661,29 +1124,24 @@
         <Literal xml:lang="en">depositional system</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_depositional_system</IRI>
+        <Literal xml:lang="pt">sistema deposicional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
         <IRI>#UFRGS:GeoReservoirOntology_depositional_system</IRI>
         <Literal>R+ I+ O+ U+ ED-</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoReservoirOntology_depositional_unit</IRI>
-        <Literal xml:lang="en">A Sedimentary Geological Object having a dimension of at least 1 m in at least one of its extents (width, length, or thickness).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#UFRGS:GeoReservoirOntology_depositional_unit</IRI>
-        <Literal xml:lang="en">A Depositional Unit is recognizable in a mapping scale of at least 1:1000.</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_diamictite</IRI>
+        <Literal xml:lang="pt">diamictito</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoReservoirOntology_depositional_unit</IRI>
-        <Literal xml:lang="en">depositional unit</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
-        <IRI>#UFRGS:GeoReservoirOntology_depositional_unit</IRI>
-        <Literal>R+ I+ O- U+ ED-</Literal>
+        <IRI>#UFRGS:GeoReservoirOntology_diamictite</IRI>
+        <Literal xml:lang="en">diamitctite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -694,6 +1152,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_dimension</IRI>
         <Literal xml:lang="en">dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_dome_unit</IRI>
+        <Literal xml:lang="en">dome unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_dome_unit</IRI>
+        <Literal xml:lang="pt">domo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_eolian</IRI>
+        <Literal xml:lang="en">eolian</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_eolian</IRI>
+        <Literal xml:lang="pt">eólico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_erosion</IRI>
+        <Literal xml:lang="en">erosion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_erosion</IRI>
+        <Literal xml:lang="pt">erosão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_erosive</IRI>
+        <Literal xml:lang="en">erosive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_erosive</IRI>
+        <Literal xml:lang="pt">erosivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_estuarine</IRI>
+        <Literal xml:lang="en">estuarine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_estuarine</IRI>
+        <Literal xml:lang="pt">estuarino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_evaporite</IRI>
+        <Literal xml:lang="en">evaporite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_evaporite</IRI>
+        <Literal xml:lang="pt">evaporito</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -711,6 +1229,11 @@
         <Literal xml:lang="en">facies</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_facies</IRI>
+        <Literal xml:lang="pt">fácies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_facies_association</IRI>
         <Literal xml:lang="en">A Generically Dependent Continuant that consists of an aggregate of Facies.</Literal>
@@ -726,6 +1249,66 @@
         <Literal xml:lang="en">facies association</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_faulted</IRI>
+        <Literal xml:lang="pt">de falha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_faulted</IRI>
+        <Literal xml:lang="en">faulted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fluvial</IRI>
+        <Literal xml:lang="en">fluvial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fluvial</IRI>
+        <Literal xml:lang="pt">fluvial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fold</IRI>
+        <Literal xml:lang="pt">dobra</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fold</IRI>
+        <Literal xml:lang="en">fold</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fossil</IRI>
+        <Literal xml:lang="en">fossil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_fossil</IRI>
+        <Literal xml:lang="pt">fóssil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_geological_description</IRI>
+        <Literal xml:lang="pt">descrição geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_geological_description</IRI>
+        <Literal xml:lang="en">geological description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_geological_occurrence</IRI>
+        <Literal xml:lang="en">geological occurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_geological_occurrence</IRI>
+        <Literal xml:lang="pt">ocorrência geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_geometry</IRI>
         <Literal xml:lang="en">A Quality that inheres in a Depositional Unit by virtue of its external three-dimensional shape. It does not reflect the exact mathematical specifications of a geometric shape but abstracts and simplifies these specifications (Rovetto, 2011).</Literal>
@@ -733,7 +1316,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_geometry</IRI>
+        <Literal xml:lang="pt">geometria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_geometry</IRI>
         <Literal xml:lang="en">geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_glacial</IRI>
+        <Literal xml:lang="en">glacial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_glacial</IRI>
+        <Literal xml:lang="pt">glacial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_gradational</IRI>
+        <Literal xml:lang="pt">gradacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_gradational</IRI>
+        <Literal xml:lang="en">gradational</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -756,6 +1364,66 @@
         <Literal xml:lang="en">has quality value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_heterolite</IRI>
+        <Literal xml:lang="en">heterolite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_heterolite</IRI>
+        <Literal xml:lang="pt">heterolito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_igneous</IRI>
+        <Literal xml:lang="en">igneous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_igneous</IRI>
+        <Literal xml:lang="pt">ígnea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_irregular</IRI>
+        <Literal xml:lang="en">irregular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_irregular</IRI>
+        <Literal xml:lang="pt">irregular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lacustrine</IRI>
+        <Literal xml:lang="pt">lacustre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lacustrine</IRI>
+        <Literal xml:lang="en">lacustrine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lamination</IRI>
+        <Literal xml:lang="en">lamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lamination</IRI>
+        <Literal xml:lang="pt">laminação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_layer</IRI>
+        <Literal xml:lang="pt">camada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_layer</IRI>
+        <Literal xml:lang="en">layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_length</IRI>
         <Literal xml:lang="en">A Dimension that inheres in an Independent Continuant by virtue of the distance between its two extremes along its longest side.</Literal>
@@ -764,6 +1432,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_length</IRI>
         <Literal xml:lang="en">length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_concave_convex</IRI>
+        <Literal xml:lang="pt">lencitular côncavo convexa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_concave_convex</IRI>
+        <Literal xml:lang="en">lenticular concave convex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed</IRI>
+        <Literal xml:lang="en">lenticular convex top flatbed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed</IRI>
+        <Literal xml:lang="pt">lenticular topo convexo base plana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base</IRI>
+        <Literal xml:lang="en">lenticular flattop concave base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base</IRI>
+        <Literal xml:lang="pt">lenticular topo plano base convexa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -783,6 +1481,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_levee_unit</IRI>
+        <Literal xml:lang="pt">dique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_levee_unit</IRI>
         <Literal xml:lang="en">levee unit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -791,14 +1494,24 @@
         <Literal>R~ I+ O- U+ ED-</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoReservoirOntology_lobe_geometry</IRI>
-        <Literal xml:lang="en">A synonym for Geometry with “lobe” value</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lithology</IRI>
+        <Literal xml:lang="en">lithology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoReservoirOntology_lobe_geometry</IRI>
-        <Literal xml:lang="en">lobe geometry</Literal>
+        <IRI>#UFRGS:GeoReservoirOntology_lithology</IRI>
+        <Literal xml:lang="pt">litologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lithostratigraphic_unit</IRI>
+        <Literal xml:lang="en">lithoestratigraphic unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_lithostratigraphic_unit</IRI>
+        <Literal xml:lang="pt">unidade litoestratigráfica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -826,6 +1539,16 @@
         <Literal>R+ I+ O- U+ ED-</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_metamorphic</IRI>
+        <Literal xml:lang="en">metamorphic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_metamorphic</IRI>
+        <Literal xml:lang="pt">metamórfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_metaproperties</IRI>
         <Literal xml:lang="en">For metaproperties, we use the following notation (Guarino and Welty, 2004; Abel et al., 2015):
@@ -843,16 +1566,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoReservoirOntology_mound_geometry</IRI>
-        <Literal xml:lang="en">A synonym for Geometry with “mound” value</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoReservoirOntology_mound_geometry</IRI>
-        <Literal xml:lang="en">mound geometry</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_mound_unit</IRI>
         <Literal xml:lang="en">A Depositional Unit having Mound Geometry with an irregular top surface and internal chaotic facies.</Literal>
     </AnnotationAssertion>
@@ -865,6 +1578,26 @@
         <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
         <IRI>#UFRGS:GeoReservoirOntology_mound_unit</IRI>
         <Literal>R+ I+ O- U+ ED-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_mudstone</IRI>
+        <Literal xml:lang="pt">argilito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_mudstone</IRI>
+        <Literal xml:lang="en">mudstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_organic</IRI>
+        <Literal xml:lang="en">organic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_organic</IRI>
+        <Literal xml:lang="en">orgânica</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -885,6 +1618,16 @@
         <AnnotationProperty IRI="#UFRGS:GeoReservoirOntology_metaproperties"/>
         <IRI>#UFRGS:GeoReservoirOntology_overbank_unit</IRI>
         <Literal>R~ I+ O- U+ ED-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sandstone</IRI>
+        <Literal xml:lang="pt">arenito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sandstone</IRI>
+        <Literal xml:lang="en">sandstone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -910,6 +1653,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#UFRGS:GeoReservoirOntology_sedimentary_facies</IRI>
         <Literal xml:lang="en">As an example, if we would model Cross-bedded Sandstone (Nichols, 2009), it would be an entity subsumed by Sedimentary Facies having the following relations: (1) Generically Depends On some (Constituted By some Sandstone (a)); and (2) Has Part some Cross-bedding Structure (b). (a): Sandstone would be an entity subsumed by Sedimentary Rock. (b): Cross-bedding Structure would be an entity subsumed by Sedimentary Structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sedimentary_facies</IRI>
+        <Literal xml:lang="pt">fácies sedimentar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -959,7 +1707,72 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#UFRGS:GeoReservoirOntology_sedimentary_structure</IRI>
+        <Literal xml:lang="pt">estrutura sedimentar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sedimentary_structure</IRI>
         <Literal xml:lang="en">sedimentary structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sequence</IRI>
+        <Literal xml:lang="en">sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sequence</IRI>
+        <Literal xml:lang="pt">sequência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sharp</IRI>
+        <Literal xml:lang="pt">abrupto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sharp</IRI>
+        <Literal xml:lang="en">sharp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sheet</IRI>
+        <Literal xml:lang="pt">lençol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sheet</IRI>
+        <Literal xml:lang="en">sheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sigmoidal</IRI>
+        <Literal xml:lang="en">sigmoidal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_sigmoidal</IRI>
+        <Literal xml:lang="pt">sigmóide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_siliciclastic</IRI>
+        <Literal xml:lang="en">siliciclastic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_siliciclastic</IRI>
+        <Literal xml:lang="pt">siliciclástica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_siltiste</IRI>
+        <Literal xml:lang="en">siltiste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_siltiste</IRI>
+        <Literal xml:lang="pt">siltito</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -972,6 +1785,66 @@
         <Literal xml:lang="en">sinuosity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_slump</IRI>
+        <Literal xml:lang="pt">escorregamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_slump</IRI>
+        <Literal xml:lang="en">slump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_strata</IRI>
+        <Literal xml:lang="pt">estrato</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_strata</IRI>
+        <Literal xml:lang="en">strata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_submarine_fan</IRI>
+        <Literal xml:lang="pt">leque submarino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_submarine_fan</IRI>
+        <Literal xml:lang="en">submarine fan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_system_tract</IRI>
+        <Literal xml:lang="en">system tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_system_tract</IRI>
+        <Literal xml:lang="pt">trato de sistema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_tabular</IRI>
+        <Literal xml:lang="en">tabular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_tabular</IRI>
+        <Literal xml:lang="pt">tabular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_tectonic_structure</IRI>
+        <Literal xml:lang="pt">estrutura tectônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_tectonic_structure</IRI>
+        <Literal xml:lang="en">tectonic structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#UFRGS:GeoReservoirOntology_thickness</IRI>
         <Literal xml:lang="en">A Dimension that inheres in an Independent Continuant by virtue of the distance between its two extremes perpendicularly to its width and length.</Literal>
@@ -982,14 +1855,44 @@
         <Literal xml:lang="en">thickness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>#UFRGS:GeoReservoirOntology_wedge_geometry</IRI>
-        <Literal xml:lang="en">A synonym for Geometry with “wedge” value.</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_tidal_flats</IRI>
+        <Literal xml:lang="pt">planícies de marés</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#UFRGS:GeoReservoirOntology_wedge_geometry</IRI>
-        <Literal xml:lang="en">wedge geometry</Literal>
+        <IRI>#UFRGS:GeoReservoirOntology_tidal_flats</IRI>
+        <Literal xml:lang="en">tidal flats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_top_base_structure</IRI>
+        <Literal xml:lang="pt">estrutura de topo e base</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_top_base_structure</IRI>
+        <Literal xml:lang="en">top-base structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_undefined</IRI>
+        <Literal xml:lang="pt">indefinido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_undefined</IRI>
+        <Literal xml:lang="en">undefined</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_wedge_shape</IRI>
+        <Literal xml:lang="pt">cunha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:GeoReservoirOntology_wedge_shape</IRI>
+        <Literal xml:lang="en">wedge shape</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
