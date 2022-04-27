@@ -434,6 +434,14 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                "ígnea"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_igneous_rock
+:UFRGS:GeoReservoirOntology_igneous_rock rdf:type owl:Class ;
+                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> ;
+                                         rdfs:label "igneous rock"@en ,
+                                                    "rocha ígnea"@pt ;
+                                         :UFRGS:GeoReservoirOntology_metaproperties "R+ I+ O- U- ED-" .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_intrusive_dike_unit
 :UFRGS:GeoReservoirOntology_intrusive_dike_unit rdf:type owl:Class ;
                                                 rdfs:subClassOf :UFRGS:GeoReservoirOntology_architectural_element ;
@@ -490,6 +498,14 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                    "metamórfica"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_metamorphic_rock
+:UFRGS:GeoReservoirOntology_metamorphic_rock rdf:type owl:Class ;
+                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> ;
+                                             rdfs:label "metamorphic rock"@en ,
+                                                        "rocha metamórfica"@pt ;
+                                             :UFRGS:GeoReservoirOntology_metaproperties "R+ I+ O- U- ED-" .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_mound_unit
 :UFRGS:GeoReservoirOntology_mound_unit rdf:type owl:Class ;
                                        rdfs:subClassOf :UFRGS:GeoReservoirOntology_architectural_element ;
@@ -535,7 +551,8 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 :UFRGS:GeoReservoirOntology_sedimentary_rock rdf:type owl:Class ;
                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> ;
                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A Rock constituted by some collection of sedimentary grains or particles (Garcia et al., 2019)."@en ;
-                                             rdfs:label "sedimentary rock"@en ;
+                                             rdfs:label "rocha sedimentar"@pt ,
+                                                        "sedimentary rock"@en ;
                                              :UFRGS:GeoReservoirOntology_metaproperties "R+ I+ O- U- ED-" .
 
 
