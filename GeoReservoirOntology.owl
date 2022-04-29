@@ -295,6 +295,41 @@
                                                                                                                                                                                                     rdfs:label "transicional lagunar"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal> rdf:type owl:Class ;
+                                                                                                                                                                                                  rdfs:subClassOf :UFRGS:GeoReservoirOntology_facies_association ;
+                                                                                                                                                                                                  rdfs:label "canal"@pt ,
+                                                                                                                                                                                                             "channel"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento> rdf:type owl:Class ;
+                                                                                                                                                                                                           rdfs:subClassOf :UFRGS:GeoReservoirOntology_facies_association ;
+                                                                                                                                                                                                           rdfs:label "extravasamento"@pt ,
+                                                                                                                                                                                                                      "levee/overbank"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento> rdf:type owl:Class ;
+                                                                                                                                                                                                              rdfs:subClassOf :UFRGS:GeoReservoirOntology_facies_association ;
+                                                                                                                                                                                                              rdfs:label "lobe/splay"@en ,
+                                                                                                                                                                                                                         "lobo/espraiamento"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada> rdf:type owl:Class ;
+                                                                                                                                                                                                             rdfs:subClassOf :UFRGS:GeoReservoirOntology_facies_association ;
+                                                                                                                                                                                                             rdfs:label "condensed section"@en ,
+                                                                                                                                                                                                                        "seção condensada"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa> rdf:type owl:Class ;
+                                                                                                                                                                                                                rdfs:subClassOf :UFRGS:GeoReservoirOntology_facies_association ;
+                                                                                                                                                                                                                rdfs:label "mass transport deposit"@en ,
+                                                                                                                                                                                                                           "transporte de massa"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_geometria_cunha
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_geometria_cunha> rdf:type owl:Class ;
                                                                                                                                                                       rdfs:subClassOf :UFRGS:GeoReservoirOntology_geometry ;
@@ -349,6 +384,48 @@
                                                                                                                                                                         rdfs:subClassOf :UFRGS:GeoReservoirOntology_geometry ;
                                                                                                                                                                         rdfs:label "tabular"@en ,
                                                                                                                                                                                    "tabular"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_contornito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_contornito> rdf:type owl:Class ;
+                                                                                                                                                                                        rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                        rdfs:label "contornito"@pt ,
+                                                                                                                                                                                                   "contourites"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_debrito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_debrito> rdf:type owl:Class ;
+                                                                                                                                                                                     rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                     rdfs:label "debrite"@en ,
+                                                                                                                                                                                                "debrito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_fluxo_de_detritos
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_fluxo_de_detritos> rdf:type owl:Class ;
+                                                                                                                                                                                               rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                               rdfs:label "debris flow"@en ,
+                                                                                                                                                                                                          "fluxo de detritos"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_hemipelagitos
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_hemipelagitos> rdf:type owl:Class ;
+                                                                                                                                                                                           rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                           rdfs:label "hemipelagites"@en ,
+                                                                                                                                                                                                      "hemipelagitos"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_tempestito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_tempestito> rdf:type owl:Class ;
+                                                                                                                                                                                        rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                        rdfs:label "tempestito"@en ,
+                                                                                                                                                                                                   "tempestito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_turbidito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada_turbidito> rdf:type owl:Class ;
+                                                                                                                                                                                       rdfs:subClassOf :UFRGS:GeoReservoirOntology_litologia_interpretada ;
+                                                                                                                                                                                       rdfs:label "turbidite"@en ,
+                                                                                                                                                                                                  "turbidito"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_sistema_deposicional_abissal
@@ -1811,6 +1888,12 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                       rdfs:label "lithology"@en ,
                                                  "litologia"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_litologia_interpretada
+:UFRGS:GeoReservoirOntology_litologia_interpretada rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                                   rdfs:label "litologia interpretada"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_lobe_unit
