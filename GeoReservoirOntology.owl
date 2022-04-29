@@ -104,20 +104,6 @@
 #    Classes
 #################################################################
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact
-<https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                         owl:oneOf ( :UFRGS:GeoReservoirOntology_amalgamated_contact
-                                                                                                                                     :UFRGS:GeoReservoirOntology_comformable_contact
-                                                                                                                                     :UFRGS:GeoReservoirOntology_cryptic
-                                                                                                                                     :UFRGS:GeoReservoirOntology_erosive
-                                                                                                                                     :UFRGS:GeoReservoirOntology_faulted
-                                                                                                                                     :UFRGS:GeoReservoirOntology_gradational
-                                                                                                                                     :UFRGS:GeoReservoirOntology_sharp
-                                                                                                                                     :UFRGS:GeoReservoirOntology_undefined
-                                                                                                                                   )
-                                                                                                                       ] .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object
 <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object> rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                                                                     owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
@@ -328,6 +314,90 @@
                                                                                                                                                                                                                 rdfs:subClassOf :UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo ;
                                                                                                                                                                                                                 rdfs:label "mass transport deposit"@en ,
                                                                                                                                                                                                                            "transporte de massa"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_abrupto
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_abrupto> rdf:type owl:Class ;
+                                                                                                                                                                                  rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                  rdfs:label "abrupto"@pt ,
+                                                                                                                                                                                             "sharp"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_amalgamado
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_amalgamado> rdf:type owl:Class ;
+                                                                                                                                                                                     rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                     rdfs:label "amalgamado"@pt ,
+                                                                                                                                                                                                "amalgamated"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_concordante
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_concordante> rdf:type owl:Class ;
+                                                                                                                                                                                      rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                      rdfs:label "concordante"@pt ,
+                                                                                                                                                                                                 "conformable"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_contato_intrusivo
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_contato_intrusivo> rdf:type owl:Class ;
+                                                                                                                                                                                            rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                            rdfs:label "contato intrusivo"@pt ,
+                                                                                                                                                                                                       "intrusive contacts"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_criptico_encoberto
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_criptico_encoberto> rdf:type owl:Class ;
+                                                                                                                                                                                             rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                             rdfs:label "cryptic/covered"@en ,
+                                                                                                                                                                                                        "críptico/encoberto"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_de_falha
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_de_falha> rdf:type owl:Class ;
+                                                                                                                                                                                   rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                   rdfs:label "de falha"@pt ,
+                                                                                                                                                                                              "faulted"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_erosivo
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_erosivo> rdf:type owl:Class ;
+                                                                                                                                                                                  rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                  rdfs:label "erosive"@en ,
+                                                                                                                                                                                             "erosivo"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_gradacional
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_gradacional> rdf:type owl:Class ;
+                                                                                                                                                                                      rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                      rdfs:label "gradacional"@pt ,
+                                                                                                                                                                                                 "gradational"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_indefinido
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas_indefinido> rdf:type owl:Class ;
+                                                                                                                                                                                     rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_de_camadas ;
+                                                                                                                                                                                     rdfs:label "indefinido"@pt ,
+                                                                                                                                                                                                "undefined"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_conformante
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_conformante> rdf:type owl:Class ;
+                                                                                                                                                                                           rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_estratigraficos ;
+                                                                                                                                                                                           rdfs:label "conformable"@en ,
+                                                                                                                                                                                                      "conformante"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_diastema
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_diastema> rdf:type owl:Class ;
+                                                                                                                                                                                        rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_estratigraficos ;
+                                                                                                                                                                                        rdfs:label "diastem"@en ,
+                                                                                                                                                                                                   "diastema"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_discordante
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos_discordante> rdf:type owl:Class ;
+                                                                                                                                                                                           rdfs:subClassOf :UFRGS:GeoReservoirOntology_contatos_estratigraficos ;
+                                                                                                                                                                                           rdfs:label "discordante"@pt ,
+                                                                                                                                                                                                      "uncomformable"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_geometria_cunha
@@ -1711,6 +1781,18 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                         "objeto composto"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_de_camadas
+:UFRGS:GeoReservoirOntology_contatos_de_camadas rdf:type owl:Class ;
+                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
+                                                rdfs:label "contatos de camadas"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_contatos_estratigraficos
+:UFRGS:GeoReservoirOntology_contatos_estratigraficos rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
+                                                     rdfs:label "contatos estratigráficos"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_deformation_structure
 :UFRGS:GeoReservoirOntology_deformation_structure rdf:type owl:Class ;
                                                   owl:equivalentClass [ rdf:type owl:Class ;
@@ -2086,18 +2168,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                    "amalgamated"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_amalgamated_contact
-:UFRGS:GeoReservoirOntology_amalgamated_contact rdf:type owl:NamedIndividual ;
-                                                rdfs:label "amalgamated contact"@en ,
-                                                           "contato amalgamado"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_comformable_contact
-:UFRGS:GeoReservoirOntology_comformable_contact rdf:type owl:NamedIndividual ;
-                                                rdfs:label "comformable contact"@en ,
-                                                           "contato concordante"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_conglomerate
 :UFRGS:GeoReservoirOntology_conglomerate rdf:type owl:NamedIndividual ;
                                          rdfs:label "conglomerado"@pt ,
@@ -2108,12 +2178,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 :UFRGS:GeoReservoirOntology_cross_stratification rdf:type owl:NamedIndividual ;
                                                  rdfs:label "cross stratification"@en ,
                                                             "estratificação cruzada"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_cryptic
-:UFRGS:GeoReservoirOntology_cryptic rdf:type owl:NamedIndividual ;
-                                    rdfs:label "cryptic"@en ,
-                                               "críptico"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_diamictite
@@ -2129,28 +2193,10 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                "erosão"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_erosive
-:UFRGS:GeoReservoirOntology_erosive rdf:type owl:NamedIndividual ;
-                                    rdfs:label "erosive"@en ,
-                                               "erosivo"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_faulted
-:UFRGS:GeoReservoirOntology_faulted rdf:type owl:NamedIndividual ;
-                                    rdfs:label "de falha"@pt ,
-                                               "faulted"@en .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_fold
 :UFRGS:GeoReservoirOntology_fold rdf:type owl:NamedIndividual ;
                                  rdfs:label "dobra"@pt ,
                                             "fold"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_gradational
-:UFRGS:GeoReservoirOntology_gradational rdf:type owl:NamedIndividual ;
-                                        rdfs:label "gradacional"@pt ,
-                                                   "gradational"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_heterolite
@@ -2202,12 +2248,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                  "sandstone"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_sharp
-:UFRGS:GeoReservoirOntology_sharp rdf:type owl:NamedIndividual ;
-                                  rdfs:label "abrupto"@pt ,
-                                             "sharp"@en .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_sheet
 :UFRGS:GeoReservoirOntology_sheet rdf:type owl:NamedIndividual ,
                                            :UFRGS:GeoReservoirOntology_geometry ;
@@ -2238,13 +2278,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 :UFRGS:GeoReservoirOntology_tabular rdf:type owl:NamedIndividual ;
                                     rdfs:label "tabular"@en ,
                                                "tabular"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_undefined
-:UFRGS:GeoReservoirOntology_undefined rdf:type owl:NamedIndividual ,
-                                               <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
-                                      rdfs:label "indefinido"@pt ,
-                                                 "undefined"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontologyUFRGS:GeoReservoirOntology_wedge_shape
