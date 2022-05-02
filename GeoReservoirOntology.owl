@@ -291,6 +291,31 @@
                                                                                                                            "elemento arquitetural"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento> rdf:type owl:Class ;
+                                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento> rdf:type owl:Class ;
+                                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada> rdf:type owl:Class ;
+                                                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa> rdf:type owl:Class ;
+                                                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin> rdf:type owl:Class ;
                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
