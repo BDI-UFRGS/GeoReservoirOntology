@@ -133,6 +133,147 @@
                                                                                                      ] .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
+                                                                                                                   rdfs:label "ambiente de sedimentação"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> rdf:type owl:Class ;
+                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_aluvial
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_aluvial> rdf:type owl:Class ;
+                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_eolico
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_eolico> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_evaporitico
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_evaporitico> rdf:type owl:Class ;
+                                                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_fluvial
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_fluvial> rdf:type owl:Class ;
+                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_glacial_periglacial
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_glacial_periglacial> rdf:type owl:Class ;
+                                                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_lacustre
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental_lacustre> rdf:type owl:Class ;
+                                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> rdf:type owl:Class ;
+                                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_bacia
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_bacia> rdf:type owl:Class ;
+                                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_canion
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_canion> rdf:type owl:Class ;
+                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_evaporitico
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_evaporitico> rdf:type owl:Class ;
+                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_mini_bacia_de_talude_ou_inter_domos_de_sal
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_mini_bacia_de_talude_ou_inter_domos_de_sal> rdf:type owl:Class ;
+                                                                                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_plataforma_carbonatica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_plataforma_carbonatica> rdf:type owl:Class ;
+                                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_plataforma_siliciclastica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_plataforma_siliciclastica> rdf:type owl:Class ;
+                                                                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_talude
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho_talude> rdf:type owl:Class ;
+                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_marinho> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar> rdf:type owl:Class ;
+                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_embasamento_fraturado
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_embasamento_fraturado> rdf:type owl:Class ;
+                                                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_plutonica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_plutonica> rdf:type owl:Class ;
+                                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_vulcanica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_vulcanica> rdf:type owl:Class ;
+                                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_vulcanoclastica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar_vulcanoclastica> rdf:type owl:Class ;
+                                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_nao_sedimentar> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> rdf:type owl:Class ;
+                                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_costeiro_litoraneo
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_costeiro_litoraneo> rdf:type owl:Class ;
+                                                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_deltaico
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_deltaico> rdf:type owl:Class ;
+                                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_estuarino
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_estuarino> rdf:type owl:Class ;
+                                                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_evaporitico
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_evaporitico> rdf:type owl:Class ;
+                                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_fan_delta
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_fan_delta> rdf:type owl:Class ;
+                                                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_lagunar
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional_lagunar> rdf:type owl:Class ;
+                                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_transicional> .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> rdf:type owl:Class ;
                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ,
