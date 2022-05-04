@@ -1233,27 +1233,37 @@
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_canal> rdf:type owl:Class ;
-                                                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+                                                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                                                      rdfs:label "canal"@pt ,
+                                                                                                                                                 "channel"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_extravasamento> rdf:type owl:Class ;
-                                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+                                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                                                               rdfs:label "extravasamento"@pt ,
+                                                                                                                                                          "levee/overbank"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_lobo_espraiamento> rdf:type owl:Class ;
-                                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+                                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                                                                  rdfs:label "lobe/splay"@en ,
+                                                                                                                                                             "lobo/espraiamento"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_secao_condensada> rdf:type owl:Class ;
-                                                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+                                                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                                                                 rdfs:label "condensed section"@en ,
+                                                                                                                                                            "seção condensada"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_associacao_de_facies_marinho_profundo_transporte_de_massa> rdf:type owl:Class ;
-                                                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> .
+                                                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                                                                    rdfs:label "mass transport deposit"@en ,
+                                                                                                                                                               "transporte de massa"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin
@@ -1560,7 +1570,8 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                              ] ;
                                                                                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A Generically Dependent Continuant that consists of an aggregate of Facies."@en ;
                                                                                                              rdfs:comment "It usually describes the Facies that are typically found in specific regions or sub-environments. For example, the Channel Axis Association (McHargue et al., 2011) describes Sedimentary Facies typically found at the center part of channels (in a cross-section point of view)."@en ;
-                                                                                                             rdfs:label "facies association"@en .
+                                                                                                             rdfs:label "associação de facies"@pt ,
+                                                                                                                        "facies association"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fossil
