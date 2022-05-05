@@ -1745,37 +1745,50 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> rdf:type owl:Class ;
-                                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> .
+                                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                                                                                                 rdfs:label "litologia interpretada"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_contornito
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_contornito> rdf:type owl:Class ;
-                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                            rdfs:label "contornito"@pt ,
+                                                                                                                                       "contourites"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_debrito
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_debrito> rdf:type owl:Class ;
-                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                         rdfs:label "debrite"@en ,
+                                                                                                                                    "debrito"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_fluxo_de_detritos
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_fluxo_de_detritos> rdf:type owl:Class ;
-                                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                                   rdfs:label "debris flow"@en ,
+                                                                                                                                              "fluxo de detritos"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_hemipelagitos
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_hemipelagitos> rdf:type owl:Class ;
-                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                               rdfs:label "hemipelagites"@en ,
+                                                                                                                                          "hemipelagitos"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_tempestito
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_tempestito> rdf:type owl:Class ;
-                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                            rdfs:label "tempestito"@en ,
+                                                                                                                                       "tempestito"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_turbidito
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada_turbidito> rdf:type owl:Class ;
-                                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> .
+                                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
+                                                                                                                           rdfs:label "turbidite"@en ,
+                                                                                                                                      "turbidito"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_unit
