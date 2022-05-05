@@ -172,7 +172,8 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem> rdf:type owl:Class ;
                                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_time_interval> ;
-                                                                                                                               rdfs:label "archean eonothem"@en .
+                                                                                                                               rdfs:label "arcaico"@pt ,
+                                                                                                                                          "archean eonothem"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_artinskian_stage
@@ -388,7 +389,8 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_eoarchean_erathem
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_eoarchean_erathem> rdf:type owl:Class ;
                                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem> ;
-                                                                                                                                rdfs:label "eoarchean erathem"@en .
+                                                                                                                                rdfs:label "eoarcaico"@pt ,
+                                                                                                                                           "eoarchean erathem"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_eocene_series
@@ -676,7 +678,8 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_mesoarchean_erathem
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_mesoarchean_erathem> rdf:type owl:Class ;
                                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem> ;
-                                                                                                                                  rdfs:label "mesoarchean erathem"@en .
+                                                                                                                                  rdfs:label "mesoarcaico"@pt ,
+                                                                                                                                             "mesoarchean erathem"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_mesoproterozoic_erathem
@@ -778,7 +781,8 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_neoarchean_erathem
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_neoarchean_erathem> rdf:type owl:Class ;
                                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem> ;
-                                                                                                                                 rdfs:label "neoarchean erathem"@en .
+                                                                                                                                 rdfs:label "neoarcaico"@pt ,
+                                                                                                                                            "neoarchean erathem"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_neogene_system
@@ -844,7 +848,8 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_paleoarchean_erathem
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_paleoarchean_erathem> rdf:type owl:Class ;
                                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_archean_eonothem> ;
-                                                                                                                                   rdfs:label "paleoarchean erathem"@en .
+                                                                                                                                   rdfs:label "paleoarcaico"@pt ,
+                                                                                                                                              "paleoarchean erathem"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoCoreOntology_geological_time_interval_paleocene_series
