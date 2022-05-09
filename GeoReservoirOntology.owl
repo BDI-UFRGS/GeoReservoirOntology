@@ -1907,6 +1907,137 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                "litologia"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_andesito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_andesito> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica> ;
+                                                                                                             rdfs:label "andesine"@en ,
+                                                                                                                        "andesito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ardosia
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ardosia> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                            rdfs:label "ardósia"@pt ,
+                                                                                                                       "slate"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_arenito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_arenito> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica> ;
+                                                                                                            rdfs:label "arenito"@pt ,
+                                                                                                                       "sandstone"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_basalto
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_basalto> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica> ;
+                                                                                                            rdfs:label "basalt"@en ,
+                                                                                                                       "basalto"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_carbonatica_calcareo
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_carbonatica_calcareo> rdf:type owl:Class ;
+                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                                         rdfs:label "carbonática calcáreo"@pt ,
+                                                                                                                                    "limestone"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_carbonatica_dolomito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_carbonatica_dolomito> rdf:type owl:Class ;
+                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                                         rdfs:label "carbonática dolomito"@pt ,
+                                                                                                                                    "dolomite"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_cataclasito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_cataclasito> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                                rdfs:label "cataclasite"@en ,
+                                                                                                                           "cataclasito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_sedimentar> ;
+                                                                                                             rdfs:label "clástica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_conglomerado
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_conglomerado> rdf:type owl:Class ;
+                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica> ;
+                                                                                                                 rdfs:label "conglomerado"@pt ,
+                                                                                                                            "conglomerate"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_corneana
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_corneana> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                             rdfs:label "corneal rock"@en ,
+                                                                                                                        "corneana"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_diorito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_diorito> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_plutonica> ;
+                                                                                                            rdfs:label "diorite"@en ,
+                                                                                                                       "diorito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_evaporito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_evaporito> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                              rdfs:label "evaporite"@en ,
+                                                                                                                         "evaporito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ferrifera
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ferrifera> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                              rdfs:label "ferriferous"@en ,
+                                                                                                                         "ferrífera"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_filito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_filito> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                           rdfs:label "filito"@pt ,
+                                                                                                                      "phyllite"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_fosfatica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_fosfatica> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                              rdfs:label "fosfática"@pt ,
+                                                                                                                         "phosphate rock"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_gabro
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_gabro> rdf:type owl:Class ;
+                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_plutonica> ;
+                                                                                                          rdfs:label "gabbro"@en ,
+                                                                                                                     "gabro"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_granito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_granito> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_plutonica> ;
+                                                                                                            rdfs:label "granite"@en ,
+                                                                                                                       "granito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_heterolito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_heterolito> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica> ;
+                                                                                                               rdfs:label "heterolite"@en ,
+                                                                                                                          "heterolito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ignea
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ignea> rdf:type owl:Class ;
+                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
+                                                                                                          rdfs:label "ígnea"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> rdf:type owl:Class ;
                                                                                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
@@ -1953,6 +2084,78 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_interpretada> ;
                                                                                                                            rdfs:label "turbidite"@en ,
                                                                                                                                       "turbidito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_sedimentar> ;
+                                                                                                                rdfs:label "intrabacial"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_lamito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_lamito> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_clastica> ;
+                                                                                                           rdfs:label "lamito"@pt ,
+                                                                                                                      "mudstone"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_marmore
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_marmore> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                            rdfs:label "marble"@en ,
+                                                                                                                       "mármore"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> rdf:type owl:Class ;
+                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
+                                                                                                                rdfs:label "metamórfica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_plutonica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_plutonica> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ignea> ;
+                                                                                                              rdfs:label "plutônica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_riolito
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_riolito> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica> ;
+                                                                                                            rdfs:label "riolite"@en ,
+                                                                                                                       "riolito"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_sedimentar
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_sedimentar> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
+                                                                                                               rdfs:label "sedimentar"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_silicosa
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_silicosa> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_intrabacial> ;
+                                                                                                             rdfs:label "siliceous rock"@en ,
+                                                                                                                        "silicosa"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_ignea> ;
+                                                                                                              rdfs:label "vulcânica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanoclastica
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanoclastica> rdf:type owl:Class ;
+                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_vulcanica> ;
+                                                                                                                    rdfs:label "vulcanoclastic"@en ,
+                                                                                                                               "vulcanoclástica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_xisto
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_xisto> rdf:type owl:Class ;
+                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_litologia_metamorfica> ;
+                                                                                                          rdfs:label "schist"@en ,
+                                                                                                                     "xisto"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_unit
