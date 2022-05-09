@@ -1515,13 +1515,6 @@
                                                                                                                    "edifício"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_carbonate
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_carbonate> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                    rdfs:label "carbonate"@en ,
-                                                                                                               "carbonática"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_surface
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_surface> rdf:type owl:Class ;
                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_boundary> ,
@@ -1547,13 +1540,6 @@
                                                                                                        rdfs:label "canal"@pt ,
                                                                                                                   "channel unit"@en ;
                                                                                                        <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_chemical
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_chemical> rdf:type owl:Class ;
-                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                   rdfs:label "chemical"@en ,
-                                                                                                              "química"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_object
@@ -1750,13 +1736,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                "dune unit"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_evaporite
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_evaporite> rdf:type owl:Class ;
-                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                    rdfs:label "evaporite"@en ,
-                                                                                                               "evaporito"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies> rdf:type owl:Class ;
                                                                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ,
@@ -1889,13 +1868,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                               "geometry"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                  rdfs:label "igneous"@en ,
-                                                                                                             "ígnea"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_dike_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_dike_unit> rdf:type owl:Class ;
                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
@@ -1993,13 +1965,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metamorphic
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metamorphic> rdf:type owl:Class ;
-                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                      rdfs:label "metamorphic"@en ,
-                                                                                                                 "metamórfica"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mound_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mound_unit> rdf:type owl:Class ;
                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
@@ -2015,13 +1980,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                                                           "megaclasto"@pt ;
                                                                                                              rdfs:label "olistrostomas"@pt ,
                                                                                                                         "olistrostomes unit"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_organic
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_organic> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                  rdfs:label "organic"@en ,
-                                                                                                             "orgânica"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sediment
@@ -2064,13 +2022,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
                                                                                                      rdfs:label "lençol"@pt ,
                                                                                                                 "sheet unit"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic> rdf:type owl:Class ;
-                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                        rdfs:label "siliciclastic"@en ,
-                                                                                                                   "siliciclástica"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sinuosity
@@ -3305,18 +3256,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mound_unit>
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_olistrostomes_unit>
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet_unit>
-              )
-] .
-
-
-[ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_carbonate>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_chemical>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_evaporite>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metamorphic>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_organic>
-                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic>
               )
 ] .
 
