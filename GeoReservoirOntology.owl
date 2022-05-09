@@ -2159,7 +2159,8 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                     <http://purl.obolibrary.org/obo/IAO_0000115> "A Depositional Unit having some Lobe Geometry."@en ;
                                                                                                     rdfs:comment "For Lobe Unit hierarchical scales, we adopted the same approach as in Channel Unit."@en ,
                                                                                                                  "These depositional units are usually found at deep-water depositional system terminal regions, or at channel laterals as Overbank Units."@en ;
-                                                                                                    rdfs:label "lobe unit"@en ;
+                                                                                                    rdfs:label "lobe unit"@en ,
+                                                                                                               "lobo"@pt ;
                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
 
 
@@ -2167,7 +2168,8 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mound_unit> rdf:type owl:Class ;
                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
                                                                                                      <http://purl.obolibrary.org/obo/IAO_0000115> "A Depositional Unit having Mound Geometry with an irregular top surface and internal chaotic facies."@en ;
-                                                                                                     rdfs:label "mound unit"@en ;
+                                                                                                     rdfs:label "monte"@pt ,
+                                                                                                                "mound unit"@en ;
                                                                                                      <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
 
 
