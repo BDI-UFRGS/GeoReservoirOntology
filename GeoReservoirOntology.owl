@@ -104,20 +104,6 @@
 #    Classes
 #################################################################
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact
-<https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                         owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated_contact>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_comformable_contact>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_undefined>
-                                                                                                                                   )
-                                                                                                                       ] .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object
 <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object> rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                                                                     owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
@@ -1704,13 +1690,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deformation_structure
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deformation_structure> rdf:type owl:Class ;
-                                                                                                                owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                                      owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated>
-                                                                                                                                                  <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosion>
-                                                                                                                                                  <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fold>
-                                                                                                                                                  <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_slump>
-                                                                                                                                                )
-                                                                                                                                    ] ;
                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure> ;
                                                                                                                 rdfs:label "deformation structure"@en ,
                                                                                                                            "estrutura de deformação"@pt .
@@ -1718,21 +1697,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system> rdf:type owl:Class ;
-                                                                                                              owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                                    owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_alluvial_fan>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_shelf>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_slope>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deltaic>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_eolian>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_estuarine>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fluvial>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_glacial>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lacustrine>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_submarine_fan>
-                                                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tidal_flats>
-                                                                                                                                              )
-                                                                                                                                  ] ;
                                                                                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
                                                                                                               <http://purl.obolibrary.org/obo/IAO_0000115> "An Object Aggregate whose members are mereotopologically-linked Depositional Units."@en ;
                                                                                                               rdfs:label "depositional system"@en ,
@@ -1843,73 +1807,82 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_cunha
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_cunha> rdf:type owl:Class ;
-                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                           rdfs:label "cunha"@pt ,
                                                                                                                      "wedge shape"@en .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                            rdfs:label "geometria de base"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                            rdfs:label "geometria de topo"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_irregular
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_irregular> rdf:type owl:Class ;
-                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                               rdfs:label "irregular"@en ,
                                                                                                                          "irregular"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lencoidal
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lencoidal> rdf:type owl:Class ;
-                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                               rdfs:label "lençoidal"@pt ,
                                                                                                                          "sheet"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_concavo_convexa
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_concavo_convexa> rdf:type owl:Class ;
-                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                                               <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                                                rdfs:label "lenticular concave convex"@en ,
                                                                                                                                           "lenticular côncavo convexa"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_topo_convexo_base_plana
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_topo_convexo_base_plana> rdf:type owl:Class ;
-                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                                                       <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                                                        rdfs:label "lenticular convex top flatbed"@en ,
                                                                                                                                                   "lenticular topo convexo base plana"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_topo_plano_base_convexa
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_lenticular_topo_plano_base_convexa> rdf:type owl:Class ;
-                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                                                       <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                                                        rdfs:label "lenticular flattop concave base"@en ,
                                                                                                                                                   "lenticular topo plano base convexa"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_sigmoide
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_sigmoide> rdf:type owl:Class ;
-                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                             <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                              rdfs:label "sigmoidal"@en ,
                                                                                                                         "sigmóide"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_tabular
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_tabular> rdf:type owl:Class ;
-                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_base> ,
+                                                                                                                            <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometria_de_topo> ;
                                                                                                             rdfs:label "tabular"@en ,
                                                                                                                        "tabular"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> rdf:type owl:Class ;
-                                                                                                   owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                         owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sigmoidal>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tabular>
-                                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape>
-                                                                                                                                   )
-                                                                                                                       ] ;
                                                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                                                                                    <http://purl.obolibrary.org/obo/IAO_0000115> "A Quality that inheres in a Depositional Unit by virtue of its external three-dimensional shape. It does not reflect the exact mathematical specifications of a geometric shape but abstracts and simplifies these specifications (Rovetto, 2011)."@en ;
                                                                                                    rdfs:label "geometria"@pt ,
@@ -2079,11 +2052,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sedimentary_structure
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sedimentary_structure> rdf:type owl:Class ;
-                                                                                                                owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                                      owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cross_stratification>
-                                                                                                                                                  <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lamination>
-                                                                                                                                                )
-                                                                                                                                    ] ;
                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure> ;
                                                                                                                 <http://purl.obolibrary.org/obo/IAO_0000115> "A Geological Structure consisting of a pattern of the internal arrangement of Depositional Units."@en ;
                                                                                                                 rdfs:comment "An example would be Cross-bedding Structure as noted in the Sedimentary Facies entity definition."@en ;
@@ -2100,15 +2068,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic> rdf:type owl:Class ;
-                                                                                                        owl:equivalentClass [ rdf:type owl:Class ;
-                                                                                                                              owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conglomerate>
-                                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_diamictite>
-                                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_heterolite>
-                                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mudstone>
-                                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandstone>
-                                                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siltiste>
-                                                                                                                                        )
-                                                                                                                            ] ;
                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
                                                                                                         rdfs:label "siliciclastic"@en ,
                                                                                                                    "siliciclástica"@pt .
@@ -3328,258 +3287,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> ;
                                                                                                                                                                         rdfs:label "metamorphic rock"@en ,
                                                                                                                                                                                    "rocha metamórfica"@pt .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_alluvial_fan
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_alluvial_fan> rdf:type owl:NamedIndividual ;
-                                                                                                       rdfs:label "alluvial fan"@en ,
-                                                                                                                  "leque aluvial"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated> rdf:type owl:NamedIndividual ;
-                                                                                                      rdfs:label "amalgamado"@pt ,
-                                                                                                                 "amalgamated"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated_contact
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_amalgamated_contact> rdf:type owl:NamedIndividual ;
-                                                                                                              rdfs:label "amalgamated contact"@en ,
-                                                                                                                         "contato amalgamado"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_barrier_island_and_strand_plain> rdf:type owl:NamedIndividual ;
-                                                                                                                          rdfs:label "barrier-island and strand plain"@en ,
-                                                                                                                                     "ilha de barreira e planície costeira"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_comformable_contact
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_comformable_contact> rdf:type owl:NamedIndividual ;
-                                                                                                              rdfs:label "comformable contact"@en ,
-                                                                                                                         "contato concordante"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conglomerate
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conglomerate> rdf:type owl:NamedIndividual ;
-                                                                                                       rdfs:label "conglomerado"@pt ,
-                                                                                                                  "conglomerate"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_shelf
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_shelf> rdf:type owl:NamedIndividual ;
-                                                                                                            rdfs:label "continental shelf"@en ,
-                                                                                                                       "plataforma continental"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_slope
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_continental_slope> rdf:type owl:NamedIndividual ,
-                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system> ;
-                                                                                                            rdfs:label "continental slope"@en ,
-                                                                                                                       "declive continental"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cross_stratification
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cross_stratification> rdf:type owl:NamedIndividual ;
-                                                                                                               rdfs:label "cross stratification"@en ,
-                                                                                                                          "estratificação cruzada"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "cryptic"@en ,
-                                                                                                             "críptico"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deltaic
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deltaic> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "deltaic"@en ,
-                                                                                                             "deltaico"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_diamictite
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_diamictite> rdf:type owl:NamedIndividual ,
-                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithology> ;
-                                                                                                     rdfs:label "diamictito"@pt ,
-                                                                                                                "diamitctite"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_eolian
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_eolian> rdf:type owl:NamedIndividual ;
-                                                                                                 rdfs:label "eolian"@en ,
-                                                                                                            "eólico"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosion
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosion> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "erosion"@en ,
-                                                                                                             "erosão"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "erosive"@en ,
-                                                                                                             "erosivo"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_estuarine
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_estuarine> rdf:type owl:NamedIndividual ;
-                                                                                                    rdfs:label "estuarine"@en ,
-                                                                                                               "estuarino"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "de falha"@pt ,
-                                                                                                             "faulted"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fluvial
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fluvial> rdf:type owl:NamedIndividual ,
-                                                                                                           <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system> ;
-                                                                                                  rdfs:label "fluvial"@en ,
-                                                                                                             "fluvial"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fold
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_fold> rdf:type owl:NamedIndividual ;
-                                                                                               rdfs:label "dobra"@pt ,
-                                                                                                          "fold"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_glacial
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_glacial> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "glacial"@en ,
-                                                                                                             "glacial"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational> rdf:type owl:NamedIndividual ;
-                                                                                                      rdfs:label "gradacional"@pt ,
-                                                                                                                 "gradational"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_heterolite
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_heterolite> rdf:type owl:NamedIndividual ;
-                                                                                                     rdfs:label "heterolite"@en ,
-                                                                                                                "heterolito"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular> rdf:type owl:NamedIndividual ;
-                                                                                                    rdfs:label "irregular"@en ,
-                                                                                                               "irregular"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lacustrine
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lacustrine> rdf:type owl:NamedIndividual ;
-                                                                                                     rdfs:label "lacustre"@pt ,
-                                                                                                                "lacustrine"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lamination
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lamination> rdf:type owl:NamedIndividual ;
-                                                                                                     rdfs:label "lamination"@en ,
-                                                                                                                "laminação"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex> rdf:type owl:NamedIndividual ;
-                                                                                                                    rdfs:label "lencitular côncavo convexa"@pt ,
-                                                                                                                               "lenticular concave convex"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed> rdf:type owl:NamedIndividual ;
-                                                                                                                        rdfs:label "lenticular convex top flatbed"@en ,
-                                                                                                                                   "lenticular topo convexo base plana"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base> rdf:type owl:NamedIndividual ;
-                                                                                                                          rdfs:label "lenticular flattop concave base"@en ,
-                                                                                                                                     "lenticular topo plano base convexa"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mudstone
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mudstone> rdf:type owl:NamedIndividual ,
-                                                                                                            <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siliciclastic> ;
-                                                                                                   rdfs:label "argilito"@pt ,
-                                                                                                              "mudstone"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandstone
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandstone> rdf:type owl:NamedIndividual ;
-                                                                                                    rdfs:label "arenito"@pt ,
-                                                                                                               "sandstone"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp> rdf:type owl:NamedIndividual ;
-                                                                                                rdfs:label "abrupto"@pt ,
-                                                                                                           "sharp"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet> rdf:type owl:NamedIndividual ,
-                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry> ;
-                                                                                                rdfs:label "lençol"@pt ,
-                                                                                                           "sheet"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sigmoidal
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sigmoidal> rdf:type owl:NamedIndividual ;
-                                                                                                    rdfs:label "sigmoidal"@en ,
-                                                                                                               "sigmóide"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siltiste
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_siltiste> rdf:type owl:NamedIndividual ;
-                                                                                                   rdfs:label "siltiste"@en ,
-                                                                                                              "siltito"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_slump
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_slump> rdf:type owl:NamedIndividual ,
-                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_deformation_structure> ;
-                                                                                                rdfs:label "escorregamento"@pt ,
-                                                                                                           "slump"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_submarine_fan
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_submarine_fan> rdf:type owl:NamedIndividual ;
-                                                                                                        rdfs:label "leque submarino"@pt ,
-                                                                                                                   "submarine fan"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tabular
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tabular> rdf:type owl:NamedIndividual ;
-                                                                                                  rdfs:label "tabular"@en ,
-                                                                                                             "tabular"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tidal_flats
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tidal_flats> rdf:type owl:NamedIndividual ,
-                                                                                                               <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system> ;
-                                                                                                      rdfs:label "planícies de marés"@pt ,
-                                                                                                                 "tidal flats"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_undefined
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_undefined> rdf:type owl:NamedIndividual ,
-                                                                                                             <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
-                                                                                                    rdfs:label "indefinido"@pt ,
-                                                                                                               "undefined"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape> rdf:type owl:NamedIndividual ;
-                                                                                                      rdfs:label "cunha"@pt ,
-                                                                                                                 "wedge shape"@en .
 
 
 #################################################################
