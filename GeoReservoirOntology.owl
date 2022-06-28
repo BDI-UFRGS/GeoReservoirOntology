@@ -1765,13 +1765,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                             "fóssil"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_description
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_description> rdf:type owl:Class ;
-                                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000310> ;
-                                                                                                                 rdfs:label "descrição geológica"@pt ,
-                                                                                                                            "geological description"@en .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_occurrence
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_occurrence> rdf:type owl:Class ;
                                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
