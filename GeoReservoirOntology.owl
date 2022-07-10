@@ -79,6 +79,13 @@
                                             rdfs:label "generically depends on" .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region> rdf:type owl:ObjectProperty ;
+                                                                                                            rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                                                                                            rdfs:range <http://purl.obolibrary.org/obo/BFO_0000008> ;
+                                                                                                            rdfs:label "occupies temporal region"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -110,6 +117,13 @@
                                                                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                                                     owl:onClass <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension>
                                                                                                                   ] .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process
+<https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                     owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region> ;
+                                                                                                                     owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_time_interval>
+                                                                                                                   ] .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock
@@ -1250,7 +1264,11 @@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao> rdf:type owl:Class ;
                                                                                                                    rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
-                                                                                                                   rdfs:label "ambiente de sedimentação"@pt .
+                                                                                                                   <http://purl.obolibrary.org/obo/IAO_0000115> "The sedimentary environment is the specific depositional setting of a particular sedimentary rock and is unique in terms of physical, chemical, and biological characteristics."@en ;
+                                                                                                                   <http://purl.obolibrary.org/obo/IAO_0000119> """Britannica
+https://www.britannica.com/science/sedimentary-rock/Sedimentary-environments"""@en ;
+                                                                                                                   rdfs:label "ambiente de sedimentação"@pt ,
+                                                                                                                              "sedimentary environment"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao_continental
@@ -1469,7 +1487,11 @@
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin> rdf:type owl:Class ;
-                                                                                                rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
+                                                                                                rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                  owl:onProperty <http://purl.obolibrary.org/obo/IAO_0000235> ;
+                                                                                                                  owl:someValuesFrom <http://purl.obolibrary.org/obo/IAO_0000590>
+                                                                                                                ] ;
                                                                                                 rdfs:label "bacia"@pt ,
                                                                                                            "basin"@en .
 
@@ -1492,6 +1514,14 @@
                                                                                                                              rdf:type owl:Class
                                                                                                                            ] ;
                                                                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/RO_0002350> ;
+                                                                                                                         owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_ambiente_de_sedimentacao>
+                                                                                                                       ] ,
+                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/RO_0002350> ;
+                                                                                                                         owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_depositional_system>
+                                                                                                                       ] ,
+                                                                                                                       [ rdf:type owl:Restriction ;
                                                                                                                          owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_carrier_of> ;
                                                                                                                          owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure>
                                                                                                                        ] ,
@@ -3410,6 +3440,46 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension> ;
                                                                                                 <http://purl.obolibrary.org/obo/IAO_0000115> "A Dimension that inheres in an Independent Continuant by virtueof the distance between its two lateral extremes."@en ;
                                                                                                 rdfs:label "width"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
+                                                                                                                     [ rdf:type owl:Restriction ;
+                                                                                                                       owl:onProperty <http://purl.obolibrary.org/obo/RO_0002350> ;
+                                                                                                                       owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group>
+                                                                                                                     ] ;
+                                                                                                     rdfs:label "formation"@en ,
+                                                                                                                "formação"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ,
+                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                   owl:onProperty <http://purl.obolibrary.org/obo/RO_0002351> ;
+                                                                                                                   owl:allValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation>
+                                                                                                                 ] ;
+                                                                                                 rdfs:label "group"@en ,
+                                                                                                            "grupo"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ;
+                                                                                                                   rdfs:label "lithostratigraphic unit"@en ,
+                                                                                                                              "unidade litoestratigráfica"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_member
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_member> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
+                                                                                                                  [ rdf:type owl:Restriction ;
+                                                                                                                    owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                                                    owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation>
+                                                                                                                  ] ;
+                                                                                                  rdfs:label "member"@en ,
+                                                                                                             "membro"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous_rock
