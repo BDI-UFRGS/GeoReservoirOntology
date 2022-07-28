@@ -1446,6 +1446,7 @@ https://www.britannica.com/science/sedimentary-rock/Sedimentary-environments"""@
                                                                                                                                   owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
                                                                                                                                   owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry>
                                                                                                                                 ] ;
+                                                                                                                rdfs:comment "Isto é o que os geólogos chamam de indivíduo."@pt ;
                                                                                                                 rdfs:label "architectural element"@en ,
                                                                                                                            "elemento arquitetural"@pt .
 
