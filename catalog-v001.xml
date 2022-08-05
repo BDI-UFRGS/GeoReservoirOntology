@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl" uri="imports/bfo_classes_only.owl"/>
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl" uri="imports/iao.owl"/>
+    <uri id="Imports Wizard Entry" name="https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/2.0" uri="file:/D:/Repositorios/GeoReservoirOntology/GeoReservoirOntology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1656504544407" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/bfo_classes_only.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1656504544407" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/iao.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1656504544407" name="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology" uri="imports/GeoCoreOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1656504544407" name="https://www.inf.ufrgs.br/bdi/ontologies/geologicalspatialrelationsontology" uri="imports/GeologicalSpatialRelationsOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1659621601350" name="http://purl.obolibrary.org/obo/bfo.owl" uri="imports/bfo_classes_only.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1659621601350" name="http://purl.obolibrary.org/obo/iao.owl" uri="imports/iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1659621601350" name="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology" uri="imports/GeoCoreOntology.owl"/>
     </group>
 </catalog>
