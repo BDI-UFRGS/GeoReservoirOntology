@@ -1701,6 +1701,27 @@ https://www.britannica.com/science/sedimentary-rock/Sedimentary-environments"""@
                                                                                                                    "edifício"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_axis
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_axis> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                       rdfs:label "channel axis"@en ,
+                                                                                                                  "eixo de canal"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_base
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_base> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                       rdfs:label "base de canal"@pt ,
+                                                                                                                  "channel base"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_margin
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_margin> rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                         rdfs:label "channel margin"@en ,
+                                                                                                                    "margem de canal"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_surface
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_channel_surface> rdf:type owl:Class ;
                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_boundary> ,
@@ -2108,6 +2129,13 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                               "geometry"@en .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_hemipelagic_mudstone
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_hemipelagic_mudstone> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                               rdfs:label "hemipelagic mudstone"@en ,
+                                                                                                                          "lamito hemipelágico"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_dike_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_dike_unit> rdf:type owl:Class ;
                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
@@ -2398,6 +2426,34 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                      "xisto"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_axis
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_axis> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                    rdfs:label "eixo de lobo"@pt ,
+                                                                                                               "lobe axis"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_distal_fringe
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_distal_fringe> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                             rdfs:label "franja distal de lobo"@en ,
+                                                                                                                        "lobe distal fringe"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_fringe
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_fringe> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                      rdfs:label "franja de lobo"@pt ,
+                                                                                                                 "lobe fringe"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_margin
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_margin> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                      rdfs:label "lobe margin"@en ,
+                                                                                                                 "margem de lobo"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_unit> rdf:type owl:Class ;
                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> ;
@@ -2416,6 +2472,34 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                      rdfs:label "monte"@pt ,
                                                                                                                 "mound unit"@en ;
                                                                                                      <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_debris_flow
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_debris_flow> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                            rdfs:label "fluxo de detritos lamoso"@pt ,
+                                                                                                                       "muddy debris flow"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_external_levee
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_external_levee> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                               rdfs:label "extravasamento externo lamoso"@pt ,
+                                                                                                                          "muddy external levee"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_internal_levee
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_internal_levee> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                               rdfs:label "extravasamento interno lamoso"@pt ,
+                                                                                                                          "muddy internal levee"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_slump
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_muddy_slump> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                      rdfs:label "escorregamento lamoso"@pt ,
+                                                                                                                 "muddy slump"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_olistrostomes_unit
@@ -2449,6 +2533,34 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_posicao_topo> rdf:type owl:Class ;
                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_posicao> ;
                                                                                                        rdfs:label "topo"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_debris_flow
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_debris_flow> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                            rdfs:label "fluxo de detritos arenoso"@pt ,
+                                                                                                                       "sandy debris flow"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_external_levee
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_external_levee> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                               rdfs:label "extravasamento externo arenoso"@en ,
+                                                                                                                          "sandy external levee"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_internal_levee
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_internal_levee> rdf:type owl:Class ;
+                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                               rdfs:label "exatravasamento interno arenoso"@pt ,
+                                                                                                                          "sandy internal levee"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_slump
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sandy_slump> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
+                                                                                                      rdfs:label "escorregamento arenoso"@pt ,
+                                                                                                                 "sandy slump"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sediment
@@ -3695,27 +3807,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                 rdfs:label "width"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_axis
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_axis> rdf:type owl:Class ;
-                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                        rdfs:label "channel axis"@en ,
-                                                                                                                   "eixo de canal"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_base
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_base> rdf:type owl:Class ;
-                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                        rdfs:label "base de canal"@pt ,
-                                                                                                                   "channel base"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_margin
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_channel_margin> rdf:type owl:Class ;
-                                                                                                          rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                          rdfs:label "channel margin"@en ,
-                                                                                                                     "margem de canal"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation> rdf:type owl:Class ;
                                                                                                      rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
@@ -3746,46 +3837,11 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                             "grupo"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_hemipelagic_mudstone
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_hemipelagic_mudstone> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                                rdfs:label "hemipelagic mudstone"@en ,
-                                                                                                                           "lamito hemipelágico"@pt .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> rdf:type owl:Class ;
                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ;
                                                                                                                    rdfs:label "lithostratigraphic unit"@en ,
                                                                                                                               "unidade litoestratigráfica"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_axis
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_axis> rdf:type owl:Class ;
-                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                     rdfs:label "eixo de lobo"@pt ,
-                                                                                                                "lobe axis"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_distal_fringe
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_distal_fringe> rdf:type owl:Class ;
-                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                              rdfs:label "franja distal de lobo"@en ,
-                                                                                                                         "lobe distal fringe"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_fringe
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_fringe> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                       rdfs:label "franja de lobo"@pt ,
-                                                                                                                  "lobe fringe"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_margin
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lobe_margin> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                       rdfs:label "lobe margin"@en ,
-                                                                                                                  "margem de lobo"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_member
@@ -3797,62 +3853,6 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                   ] ;
                                                                                                   rdfs:label "member"@en ,
                                                                                                              "membro"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_debris_flow
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_debris_flow> rdf:type owl:Class ;
-                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                             rdfs:label "fluxo de detritos lamoso"@pt ,
-                                                                                                                        "muddy debris flow"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_external_levee
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_external_levee> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                                rdfs:label "extravasamento externo lamoso"@pt ,
-                                                                                                                           "muddy external levee"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_internal_levee
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_internal_levee> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                                rdfs:label "extravasamento interno lamoso"@pt ,
-                                                                                                                           "muddy internal levee"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_slump
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_muddy_slump> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                       rdfs:label "escorregamento lamoso"@pt ,
-                                                                                                                  "muddy slump"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_debris_flow
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_debris_flow> rdf:type owl:Class ;
-                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                             rdfs:label "fluxo de detritos arenoso"@pt ,
-                                                                                                                        "sandy debris flow"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_external_levee
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_external_levee> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                                rdfs:label "extravasamento externo arenoso"@en ,
-                                                                                                                           "sandy external levee"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_internal_levee
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_internal_levee> rdf:type owl:Class ;
-                                                                                                                rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                                rdfs:label "exatravasamento interno arenoso"@pt ,
-                                                                                                                           "sandy internal levee"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_slump
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_sandy_slump> rdf:type owl:Class ;
-                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_facies_association> ;
-                                                                                                       rdfs:label "escorregamento arenoso"@pt ,
-                                                                                                                  "sandy slump"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous_rock
