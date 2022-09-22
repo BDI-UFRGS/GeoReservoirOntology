@@ -307,17 +307,20 @@ https://www.britannica.com/science/sedimentary-rock/Sedimentary-environments"""@
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element> rdf:type owl:Class ;
                                                                                                                 rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ,
-                                                                                                                                [ rdf:type owl:Class ;
-                                                                                                                                  owl:complementOf [ rdf:type owl:Restriction ;
-                                                                                                                                                     owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
-                                                                                                                                                     owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element>
-                                                                                                                                                   ]
+                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                  owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
+                                                                                                                                  owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_stratigraphic_unit>
+                                                                                                                                ] ,
+                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                  owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
+                                                                                                                                  owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element>
                                                                                                                                 ] ,
                                                                                                                                 [ rdf:type owl:Restriction ;
                                                                                                                                   owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
                                                                                                                                   owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry>
                                                                                                                                 ] ;
-                                                                                                                rdfs:comment """Luan: Elementos arquiteturais são os objetos básicos que os geólogos vão reconhecer e descrever. Eles podem ocorrer em diversas escalas.
+                                                                                                                rdfs:comment "A restrição de partes de escala menores ainda não foi implementada."@pt ,
+                                                                                                                             """Luan: Elementos arquiteturais são os objetos básicos que os geólogos vão reconhecer e descrever. Eles podem ocorrer em diversas escalas.
 Um elemento pode ter outro elemento como parte, desde que de uma escala menor."""@pt ;
                                                                                                                 rdfs:label "architectural element"@en ,
                                                                                                                            "elemento arquitetural"@pt .
@@ -366,6 +369,11 @@ Um elemento pode ter outro elemento como parte, desde que de uma escala menor.""
                                                                                                                        [ rdf:type owl:Restriction ;
                                                                                                                          owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/geologicalspatialrelationsontology#UFRGS:GeologicalSpatialRelationsOntology_proper_spatial_part_of> ;
                                                                                                                          owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_basin>
+                                                                                                                       ] ,
+                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                         owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
+                                                                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                         owl:onClass <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis>
                                                                                                                        ] ;
                                                                                                        rdfs:label "body of rock"@en ,
                                                                                                                   "corpo de rocha"@pt .
@@ -424,42 +432,6 @@ Um elemento pode ter outro elemento como parte, desde que de uma escala menor.""
                                                                                                        rdfs:label "canal"@pt ,
                                                                                                                   "channel unit"@en ;
                                                                                                        <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_object
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_object> rdf:type owl:Class ;
-                                                                                                         rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ,
-                                                                                                                         [ rdf:type owl:Restriction ;
-                                                                                                                           owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
-                                                                                                                           owl:allValuesFrom [ rdf:type owl:Class ;
-                                                                                                                                               owl:unionOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element>
-                                                                                                                                                             <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_object>
-                                                                                                                                                           )
-                                                                                                                                             ]
-                                                                                                                         ] ;
-                                                                                                         <http://purl.obolibrary.org/obo/IAO_0000115> """Complexo é um conjunto de elementos individuais ('architectural element') ou de compostos que possui uma envoltória  (boundary) identificável (visível ou interpretada) que pode ser demarcada nas seções geológicas e sísmicas. 
-
- Envoltória tem tamanho e geologia marcada e pode ser identificada na sísmica. A envoltória possui contato com mais de um indivíduo . Na descrição de uma mesma ocorrência, podem ser descritos mais de um complexo.
-
-Um complexo corresponde a um ciclo completo de queda de subida do nível do mar em estratigrafia de sequencia (um ciclo completo). 
-
-São individualizados por alguma interrupção da deposição, que é marcado por um sedimento hemipelágico (deposição marinha por precipitação), como um folhelho ou marga. Há uma troca de processo, mas nem sempre é preservado.  Os complexos podem ser amalgamados, escondendo os folhelhos do intervalo.
-
-O objeto  geológico complexo será composto por um agregado de objetos geológicos simples ou compostos. O geólogo seleciona um conjunto de objetos geológicos já descritos para fazer parte de um agregado.  Para fazer parte do agregado, é necessário  que os objetos selecionados tenham contatos entre si (2 a 2 e não todos com todos) .  Se o contato entre algum dos objetos com algum dos demais não foi descrito, o sistema deve pedir para instanciar um contato adicional."""@pt ;
-                                                                                                         <http://purl.obolibrary.org/obo/IAO_0000119> "Documento de requisitos resultante de reunião com geólogos."@pt ;
-                                                                                                         rdfs:label "complex object"@en ,
-                                                                                                                    "objeto complexo"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_object
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_object> rdf:type owl:Class ;
-                                                                                                           rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ,
-                                                                                                                           [ rdf:type owl:Restriction ;
-                                                                                                                             owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000051> ;
-                                                                                                                             owl:allValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_architectural_element>
-                                                                                                                           ] ;
-                                                                                                           rdfs:label "composite object"@en ,
-                                                                                                                      "objeto composto"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada
@@ -2564,6 +2536,14 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                  "sandy slump"@en .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
+                                                                                                            rdfs:comment "Luan: Na falta de melhor solução, vamos definir escala de análise como uma qualidade do objeto. Entretanto, sabemos que na realidade a escala de análise é algo que estra entre o observador e o objeto, e não algo intrínseco ao objeto."@pt ;
+                                                                                                            rdfs:label "escala de análise"@pt ,
+                                                                                                                       "scale of analysis"@en .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sediment
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sediment> rdf:type owl:Class ;
                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_unconsolidated_earth_material> ;
@@ -3780,6 +3760,21 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                                                      rdfs:label "vulcanismo"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_stratigraphic_unit
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_stratigraphic_unit> rdf:type owl:Class ;
+                                                                                                             rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ,
+                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                               owl:onProperty <http://purl.obolibrary.org/obo/RO_0000086> ;
+                                                                                                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                               owl:onClass <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_scale>
+                                                                                                                             ] ;
+                                                                                                             rdfs:comment """Os diferentes elementos arquiteturais ocorrem dentro de uma unidade com uma idade definida que é a unidade estratigráfica.
+
+Ainda não sabemos se poderia ser uma unidade litoestratigráfica."""@pt ;
+                                                                                                             rdfs:label "stratigraphic unit"@en ,
+                                                                                                                        "unidade estratigráfica"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tectonic_structure
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tectonic_structure> rdf:type owl:Class ;
                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_structure> ;
@@ -3856,11 +3851,33 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                              "membro"@pt .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_scale
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_scale> rdf:type owl:Class ;
+                                                                                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis> ;
+                                                                                                                                                                     rdfs:label "complex scale"@en ,
+                                                                                                                                                                                "escala de complexo"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_scale
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_scale> rdf:type owl:Class ;
+                                                                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis> ;
+                                                                                                                                                                       rdfs:label "composite scale"@en ,
+                                                                                                                                                                                  "escala de complexo"@pt ,
+                                                                                                                                                                                  "escala de composto"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous_rock
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_igneous_rock> rdf:type owl:Class ;
                                                                                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> ;
                                                                                                                                                                     rdfs:label "igneous rock"@en ,
                                                                                                                                                                                "rocha ígnea"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_individual_scale
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_individual_scale> rdf:type owl:Class ;
+                                                                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_scale_of_analysis> ;
+                                                                                                                                                                        rdfs:label "escala de indivíduo"@pt ,
+                                                                                                                                                                                   "individual scale"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metamorphic_rock
@@ -3895,6 +3912,14 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_levee_unit>
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lobe_unit>
                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_mound_unit>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_complex_scale>
+                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_composite_scale>
+                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_individual_scale>
               )
 ] .
 
