@@ -78,11 +78,11 @@
                                             rdfs:label "generically depends on" .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region> rdf:type owl:ObjectProperty ;
-                                                                                                            rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000015> ;
-                                                                                                            rdfs:range <http://purl.obolibrary.org/obo/BFO_0000008> ;
-                                                                                                            rdfs:label "occupies temporal region"@en .
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoir_occupies_temporal_region
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoir_occupies_temporal_region> rdf:type owl:ObjectProperty ;
+                                                                                                           rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000015> ;
+                                                                                                           rdfs:range <http://purl.obolibrary.org/obo/BFO_0000008> ;
+                                                                                                           rdfs:label "occupies temporal region"@en .
 
 
 #################################################################
@@ -120,7 +120,7 @@
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process
 <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_process> rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                                                     owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoir_occupies_temporal_region> ;
+                                                                                                                     owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoir_occupies_temporal_region> ;
                                                                                                                      owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_time_interval>
                                                                                                                    ] .
 
@@ -3730,49 +3730,49 @@ O objeto  geológico complexo será composto por um agregado de objetos geológi
                                                                                                 rdfs:label "width"@en .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation> rdf:type owl:Class ;
-                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_formation
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_formation> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
                                                                                                                      [ rdf:type owl:Restriction ;
                                                                                                                        owl:onProperty <http://purl.obolibrary.org/obo/RO_0002350> ;
-                                                                                                                       owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group>
+                                                                                                                       owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_group>
                                                                                                                      ] ;
                                                                                                      rdfs:label "formation"@en ,
                                                                                                                 "formação"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_geological_site
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_geological_site> rdf:type owl:Class ;
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_site
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geological_site> rdf:type owl:Class ;
                                                                                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000029> ;
                                                                                                            rdfs:comment "Epistemologicamente não é possível determinar os limites deste site e, portanto, cada geólogo pode posicionar sua área de interesse em uma localização e limites distintos, o que torna muito difícil tratar computacionalmente a identidade do sítio geológico. Esse problema acontece com outras entidades do tipo site: Região da Serra Gaúcha, Litoral Norte, etc, cuja delimitação é problemática, mas existe uma identidade consensual."@pt ;
                                                                                                            rdfs:label "geological site"@en ,
                                                                                                                       "sítio geológico"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_group> rdf:type owl:Class ;
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_group
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_group> rdf:type owl:Class ;
                                                                                                  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ,
                                                                                                                  [ rdf:type owl:Restriction ;
                                                                                                                    owl:onProperty <http://purl.obolibrary.org/obo/RO_0002351> ;
-                                                                                                                   owl:allValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation>
+                                                                                                                   owl:allValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_formation>
                                                                                                                  ] ;
                                                                                                  rdfs:label "group"@en ,
                                                                                                             "grupo"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> rdf:type owl:Class ;
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithostratigraphic_unit
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> rdf:type owl:Class ;
                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_body_of_rock> ;
                                                                                                                    rdfs:label "lithostratigraphic unit"@en ,
                                                                                                                               "unidade litoestratigráfica"@pt .
 
 
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_member
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_member> rdf:type owl:Class ;
-                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_member
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_member> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lithostratigraphic_unit> ,
                                                                                                                   [ rdf:type owl:Restriction ;
                                                                                                                     owl:onProperty <http://purl.obolibrary.org/obo/BFO_0000050> ;
-                                                                                                                    owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/#UFRGS:GeoReservoirOntology_formation>
+                                                                                                                    owl:someValuesFrom <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_formation>
                                                                                                                   ] ;
                                                                                                   rdfs:label "member"@en ,
                                                                                                              "membro"@pt .
