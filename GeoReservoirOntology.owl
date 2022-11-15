@@ -89,13 +89,9 @@
 #    Data properties
 #################################################################
 
-###  http://purl.obolibrary.org/obo/IAO_0000004
-<http://purl.obolibrary.org/obo/IAO_0000004> rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_quality_value> .
-
-
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_lenght_value
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_lenght_value> rdf:type owl:DatatypeProperty ;
-                                                                                                           rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000004> ;
+                                                                                                           rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value> ;
                                                                                                            rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension> ;
                                                                                                            rdfs:range xsd:double ;
                                                                                                            rdfs:label "has lenght value"@en .
@@ -103,7 +99,7 @@
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_measurement_unit
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_measurement_unit> rdf:type owl:DatatypeProperty ;
-                                                                                                               rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_quality_value> ;
+                                                                                                               rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value> ;
                                                                                                                rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000019> ;
                                                                                                                rdfs:range xsd:string ;
                                                                                                                <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a Quality and a literal string that represents its measurement unit."@en ;
@@ -114,13 +110,16 @@
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_quality_value> rdf:type owl:DatatypeProperty ;
                                                                                                             rdfs:subPropertyOf owl:topDataProperty ;
                                                                                                             rdfs:domain <http://purl.obolibrary.org/obo/BFO_0000019> ;
-                                                                                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a Quality and its value."@en ;
+                                                                                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A relation between a Quality and its values."@en ;
+                                                                                                            rdfs:comment """O objetivo desta data property é conectar em nívem de implementação uma qualidade com o valor em seu espaço de qualiades. Por exemplo, a qualidade dimensão tem um espaço de qualidade que é um valor real positivo para sua largura.
+
+A IAO possui uma propriedade has measurement datum cujo domínio é um measurement datum. Porém, o problema de usar tal propriedade é acrescentar a necessidade de criar uma instância de measurement datum."""@pt ;
                                                                                                             rdfs:label "has quality value"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_thickness_value
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_thickness_value> rdf:type owl:DatatypeProperty ;
-                                                                                                              rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000004> ;
+                                                                                                              rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value> ;
                                                                                                               rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension> ;
                                                                                                               rdfs:range xsd:double ;
                                                                                                               rdfs:label "has thickness value"@en .
@@ -128,10 +127,17 @@
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_width_value
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_width_value> rdf:type owl:DatatypeProperty ;
-                                                                                                          rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000004> ;
+                                                                                                          rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value> ;
                                                                                                           rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension> ;
                                                                                                           rdfs:range xsd:double ;
                                                                                                           rdfs:label "has width value"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_dimension_value> rdf:type owl:DatatypeProperty ;
+                                                                                                                                                                           rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_quality_value> ;
+                                                                                                                                                                           rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_dimension> ;
+                                                                                                                                                                           rdfs:label "has dimension value"@en .
 
 
 #################################################################
