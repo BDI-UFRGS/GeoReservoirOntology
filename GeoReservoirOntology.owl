@@ -2117,7 +2117,9 @@ Um elemento pode ter outro elemento como parte, desde que de uma escala menor.""
                                                                                                                                         )
                                                                                                                             ] ;
                                                                                                         rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
-                                                                                                        rdfs:comment "Luan: Talvez tipo de Geometria seja uma classe de segunda ordem, mas em primeiro momento não utilizaremos punning para representar isto. A classe geometry tem uma relação de 'has geometry type' com um 'geometry type' e as instâncias dessa classe é que definem o tipo de geometria de fato. Caso seja necessário criar alguma subclasse de um 'body of rock' que tenha um 'geometry type' específico é possível utilizar a primitiva do owl value para isto."@pt ;
+                                                                                                        rdfs:comment """Luan: Talvez tipo de Geometria seja uma classe de segunda ordem, mas em primeiro momento não utilizaremos punning para representar isto. A classe geometry tem uma relação de 'has geometry type' com um 'geometry type' e as instâncias dessa classe é que definem o tipo de geometria de fato. Caso seja necessário criar alguma subclasse de um 'body of rock' que tenha um 'geometry type' específico é possível utilizar a primitiva do owl value para isto.
+
+Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?"""@pt ;
                                                                                                         rdfs:label "geometry type"@en ,
                                                                                                                    "tipo de geometria"@pt .
 
@@ -3874,49 +3876,57 @@ Ainda não sabemos se poderia ser uma unidade litoestratigráfica."""@pt ;
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular> rdf:type owl:NamedIndividual ,
                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                    rdfs:label "irregular geometry"@en .
+                                                                                                    rdfs:label "geometria irregular"@pt ,
+                                                                                                               "irregular geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex> rdf:type owl:NamedIndividual ,
                                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                                    rdfs:label "lenticular concave convex geometry"@en .
+                                                                                                                    rdfs:label "geometria lenticular côncavo convexa"@pt ,
+                                                                                                                               "lenticular concave convex geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_convex_top_flatbed> rdf:type owl:NamedIndividual ,
                                                                                                                                  <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                                        rdfs:label "lenticular convex top flatbed geometry"@en .
+                                                                                                                        rdfs:label "geometria lenticular topo convexo base plana"@pt ,
+                                                                                                                                   "lenticular convex top flatbed geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_flattop_concave_base> rdf:type owl:NamedIndividual ,
                                                                                                                                    <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                                          rdfs:label "lenticular flattop concave base geometry"@en .
+                                                                                                                          rdfs:label "geometria lenticular topo plano base convexa"@pt ,
+                                                                                                                                     "lenticular flattop concave base geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet> rdf:type owl:NamedIndividual ,
                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                rdfs:label "sheet geometry"@en .
+                                                                                                rdfs:label "geometria lençoidal"@pt ,
+                                                                                                           "sheet geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sigmoidal
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sigmoidal> rdf:type owl:NamedIndividual ,
                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                    rdfs:label "sigmoidal geometry"@en .
+                                                                                                    rdfs:label "geometria sigmoidal"@pt ,
+                                                                                                               "sigmoidal geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tabular
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_tabular> rdf:type owl:NamedIndividual ,
                                                                                                            <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                  rdfs:label "tabular geometry"@en .
+                                                                                                  rdfs:label "geometria tabular"@pt ,
+                                                                                                             "tabular geometry"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape> rdf:type owl:NamedIndividual ,
                                                                                                                <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
-                                                                                                      rdfs:label "wedge shape geometry"@en .
+                                                                                                      rdfs:label "geometria de cunha"@pt ,
+                                                                                                                 "wedge shape geometry"@en .
 
 
 #################################################################
