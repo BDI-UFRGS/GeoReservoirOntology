@@ -93,15 +93,37 @@
                                                                                                            rdfs:label "occupies temporal region"@en .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_axis_position
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_axis_position> rdf:type owl:ObjectProperty ;
+                                                                                                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                                                                                         rdfs:label "has axis position"@en .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_base_geometry
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_base_geometry> rdf:type owl:ObjectProperty ;
-                                                                                                                                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                                                                                         rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_geometry_type> ;
                                                                                                                                                                          rdfs:label "has base geometry"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_position
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_position> rdf:type owl:ObjectProperty ;
+                                                                                                                                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                                                                                            rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
+                                                                                                                                                                            rdfs:range <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position> ;
+                                                                                                                                                                            rdfs:label "has contact position"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_type
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_type> rdf:type owl:ObjectProperty ;
+                                                                                                                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                                                                                        rdfs:domain <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
+                                                                                                                                                                        rdfs:range <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                                                                                        rdfs:label "has contact type"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_top_geometry
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_top_geometry> rdf:type owl:ObjectProperty ;
-                                                                                                                                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                                                                                        rdfs:subPropertyOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_geometry_type> ;
                                                                                                                                                                         rdfs:label "has top geometry"@en .
 
 
@@ -500,79 +522,64 @@ Um elemento pode ter outro elemento como parte, desde que de uma escala menor.""
                                                                                                        <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_metaproperties> "R+ I+ O- U+ ED-" .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position> rdf:type owl:Class ;
+                                                                                                           owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                                                                 owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_base_position_contact>
+                                                                                                                                             <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lateral_position_contact>
+                                                                                                                                             <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_top_position_contact>
+                                                                                                                                           )
+                                                                                                                               ] ;
+                                                                                                           rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
+                                                                                                           rdfs:label "contact position"@en ,
+                                                                                                                      "posição do contato"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> rdf:type owl:Class ;
+                                                                                                       owl:equivalentClass [ rdf:type owl:Class ;
+                                                                                                                             owl:oneOf ( <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology__amalgamated_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conformable_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic_covered_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_contact>
+                                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp_contact>
+                                                                                                                                       )
+                                                                                                                           ] ;
+                                                                                                       rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000002> ;
+                                                                                                       rdfs:label "contact type"@en ,
+                                                                                                                  "tipo de contato"@pt .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> rdf:type owl:Class ;
-                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
-                                                                                                            rdfs:label "contato de camada"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_abrupto
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_abrupto> rdf:type owl:Class ;
-                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                    rdfs:label "abrupto"@pt ,
-                                                                                                                               "sharp"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_amalgamado
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_amalgamado> rdf:type owl:Class ;
-                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                       rdfs:label "amalgamado"@pt ,
-                                                                                                                                  "amalgamated"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_concordante
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_concordante> rdf:type owl:Class ;
-                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                        rdfs:label "concordante"@pt ,
-                                                                                                                                   "conformable"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_contato_intrusivo
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_contato_intrusivo> rdf:type owl:Class ;
-                                                                                                                              rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                              rdfs:label "contato intrusivo"@pt ,
-                                                                                                                                         "intrusive contact"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_criptico_encoberto
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_criptico_encoberto> rdf:type owl:Class ;
-                                                                                                                               rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                               rdfs:label "cryptic/covered"@en ,
-                                                                                                                                          "críptico/encoberto"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_de_falha
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_de_falha> rdf:type owl:Class ;
-                                                                                                                     rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                     rdfs:label "de falha"@pt ,
-                                                                                                                                "faulted"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_erosivo
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_erosivo> rdf:type owl:Class ;
-                                                                                                                    rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                    rdfs:label "erosive"@en ,
-                                                                                                                               "erosivo"@pt .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_gradacional
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_gradacional> rdf:type owl:Class ;
-                                                                                                                        rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                        rdfs:label "gradacional"@pt ,
-                                                                                                                                   "gradational"@en .
-
-
-###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_indefinido
-<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada_indefinido> rdf:type owl:Class ;
-                                                                                                                       rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_de_camada> ;
-                                                                                                                       rdfs:label "indefinido"@pt ,
-                                                                                                                                  "undefined"@en .
+                                                                                                            rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_axis_position> ;
+                                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                              owl:onClass <http://purl.obolibrary.org/obo/IAO_0000402>
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_position> ;
+                                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                              owl:onClass <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position>
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology/https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_has_contact_type> ;
+                                                                                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                                              owl:onClass <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type>
+                                                                                                                            ] ;
+                                                                                                            rdfs:label "bed contact"@en ,
+                                                                                                                       "contato de camada"@pt .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_estratigrafico
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_estratigrafico> rdf:type owl:Class ;
                                                                                                                  rdfs:subClassOf <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_contact> ;
-                                                                                                                 rdfs:label "contato estratigráfico"@pt .
+                                                                                                                 rdfs:label "contato estratigráfico"@pt ,
+                                                                                                                            "statigraphic contact"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contato_estratigrafico_conformante
@@ -3835,11 +3842,74 @@ Ainda não sabemos se poderia ser uma unidade litoestratigráfica."""@pt ;
 #    Individuals
 #################################################################
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology__amalgamated_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology__amalgamated_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                        <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                               rdfs:label "amalgamated contact"@en ,
+                                                                                                                          "contato amalgamado"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_base_position_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_base_position_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                         <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position> ;
+                                                                                                                rdfs:label "base position contact"@en ,
+                                                                                                                           "contato de base"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conformable_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_conformable_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                              rdfs:label "conformable contact"@en ,
+                                                                                                                         "contato concordante"@pt .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic_covered_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_cryptic_covered_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                           <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                                  rdfs:label "contato críptico/encoberto"@pt ,
+                                                                                                                             "cryptic/covered contact"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_erosive_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                   <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                          rdfs:label "contato erosivo"@pt ,
+                                                                                                                     "erosive contact"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_faulted_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                   <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                          rdfs:label "contato de falha"@pt ,
+                                                                                                                     "faulted contact"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_gradational_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                       <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                              rdfs:label "contato gradacional"@pt ,
+                                                                                                                         "gradational contact"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_intrusive_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                     <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                            rdfs:label "contato intrusivo"@pt ,
+                                                                                                                       "intrusive contact"@en .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_irregular> rdf:type owl:NamedIndividual ,
                                                                                                              <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
                                                                                                     rdfs:label "geometria irregular"@pt ,
                                                                                                                "irregular geometry"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lateral_position_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lateral_position_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                            <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position> ;
+                                                                                                                   rdfs:label "contato lateral"@pt ,
+                                                                                                                              "lateral position contact"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_lenticular_concave_convex
@@ -3863,6 +3933,13 @@ Ainda não sabemos se poderia ser uma unidade litoestratigráfica."""@pt ;
                                                                                                                                      "lenticular flattop concave base geometry"@en .
 
 
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sharp_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_type> ;
+                                                                                                        rdfs:label "contato abrupto"@pt ,
+                                                                                                                   "sharp contact"@en .
+
+
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet
 <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_sheet> rdf:type owl:NamedIndividual ,
                                                                                                          <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
@@ -3882,6 +3959,13 @@ Ainda não sabemos se poderia ser uma unidade litoestratigráfica."""@pt ;
                                                                                                            <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_geometry_type> ;
                                                                                                   rdfs:label "geometria tabular"@pt ,
                                                                                                              "tabular geometry"@en .
+
+
+###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_top_position_contact
+<https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_top_position_contact> rdf:type owl:NamedIndividual ,
+                                                                                                                        <https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_contact_position> ;
+                                                                                                               rdfs:label "contato de topo"@pt ,
+                                                                                                                          "top position contact"@en .
 
 
 ###  https://www.inf.ufrgs.br/bdi/ontologies/georeservoirontology#UFRGS:GeoReservoirOntology_wedge_shape
