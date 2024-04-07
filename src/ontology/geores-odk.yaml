@@ -1,0 +1,22 @@
+id: geores
+title: GeoReservoir Ontology
+github_org: BDI-UFRGS
+git_main_branch: master
+repo: GeoReservoirOntology
+uribase: https://www.inf.ufrgs.br/bdi/ontologies
+license: https://creativecommons.org/licenses/by-nc/4.0/
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+ci:
+  - github_actions
+import_group:
+  products:
+    - id: bfo2020
+      mirror_from: http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl
+    - id: geocore
+      mirror_from: https://www.inf.ufrgs.br/bdi/ontologies/geocore/releases/2024-04-06/geocore.owl
+      module_type: SLME
+      module_type_slme: TOP

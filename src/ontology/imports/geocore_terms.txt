@@ -1,0 +1,9 @@
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000001 #geolocical object
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002 #geological process
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004 #geological structure
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000005 #geological time interval
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008 #amount of rock
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000010 #unconsolidated earth material
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000011 #geological boundary
+https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000012 #geological contact
+
