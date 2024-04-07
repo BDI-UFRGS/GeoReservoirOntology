@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  
+  <uri name="https://www.inf.ufrgs.br/bdi/ontologies/geores/imports/bfo2020_import.owl" uri="imports/bfo2020_import.owl"/>
+  
+  <uri name="https://www.inf.ufrgs.br/bdi/ontologies/geores/imports/geocore_import.owl" uri="imports/geocore_import.owl"/> 
+</group>
+</catalog>

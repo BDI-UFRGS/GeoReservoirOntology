@@ -1,0 +1,3 @@
+BFO:0000084 #generically depends on
+BFO:0000197 #inheres in
+BFO:0000129 #member_part_of
