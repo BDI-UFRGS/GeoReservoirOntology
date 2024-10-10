@@ -538,6 +538,7 @@ SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000040> <http://purl
 AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041> "contact position"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041> "posição do contato"@pt)
 EquivalentClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041> ObjectOneOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000052> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000063> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000068>))
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> (geometry type)
 
@@ -547,12 +548,14 @@ Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?"@pt
 AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> "geometry type"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> "tipo de geometria"@pt)
 EquivalentClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> ObjectOneOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000060> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000061> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000062> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000064> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000065> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000066> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000067> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000069>))
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> (contact type)
 
 AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> "contact type"@en)
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> "tipo de contato"@pt)
 EquivalentClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> ObjectOneOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000051> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000053> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000054> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000055> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000056> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000057> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000058> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000059>))
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 
 ############################
