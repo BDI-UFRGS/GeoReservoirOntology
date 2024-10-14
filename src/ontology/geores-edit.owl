@@ -82,6 +82,26 @@ Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000040>))
 Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041>))
 Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042>))
 Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093>))
+Declaration(Class(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094>))
 Declaration(ObjectProperty(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000044>))
 Declaration(ObjectProperty(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000045>))
 Declaration(ObjectProperty(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000046>))
@@ -112,6 +132,46 @@ Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000
 Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000067>))
 Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000068>))
 Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000069>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133>))
+Declaration(NamedIndividual(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134>))
 Declaration(AnnotationProperty(dce:license))
 Declaration(AnnotationProperty(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000050>))
 ############################
@@ -303,7 +363,7 @@ SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000009> <https://www
 # Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> (dune unit)
 
 AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> "dune unit"@en)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> "duna"@pt)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> "campo de dunas"@pt-br)
 SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
 
 # Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000011> (intrusive dike)
@@ -557,6 +617,131 @@ AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.
 EquivalentClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> ObjectOneOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000051> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000053> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000054> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000055> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000056> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000057> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000058> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000059>))
 SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075> (extravasamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075> "extravasamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075> "extravasamento"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076> (extravasamento interno conectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076> "extravasamento interno conectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076> "extravasamento interno conectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077> (extravasamento externo conectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077> "extravasamento externo conectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077> "extravasamento externo conectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078> (espraiamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078> "espraiamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078> "espraiamento"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079> (espraiamento lateral)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079> "espraiamento lateral"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079> "espraiamento lateral"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080> (espraiamento terminal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080> "espraiamento terminal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080> "espraiamento terminal"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081> (espraiamento capturado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081> "espraiamento capturado"@en)
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081> "espraiamento capturado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082> (transporte de massa)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082> "mass transport deposit"@en)
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082> "transporte de massa"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083> (acobertamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083> "acobertamento"@en)
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083> "acobertamento"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> (canal degradacional)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> "canal degradacional"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> "canal degradacional"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085> (canal agradacional)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085> "canal agradacional"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085> "canal agradacional"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086> (canal neutro)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086> "canal neutro"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086> "canal neutro"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087> (cunha de contorno)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087> "cunha de contorno"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087> "cunha de contorno"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088> (zona de transição canal-espraiamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088> "zona de transição canal-espraiamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088> "zona de transição canal-espraiamento"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089> (extravasamento conectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089> "extravasamento conectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089> "extravasamento conectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090> (extravasamento descontectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090> "extravasamento descontectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090> "extravasamento descontectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091> (extravasamento interno descontectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091> "extravasamento interno descontectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091> "extravasamento interno descontectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092> (extravasamento externo desconectado)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092> "extravasamento externo desconectado"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092> "extravasamento externo desconectado"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093> (acobertamento local)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093> "acobertamento local"@en)
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093> "acobertamento local"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094>)
+
+# Class: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094> (acobertamento regional)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094> "acobertamento regional"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094> "acobertamento regional"@pt-br)
+SubClassOf(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083>)
+
 
 ############################
 #   Named Individuals
@@ -676,9 +861,252 @@ AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000069> "geometria de cunha"@pt)
 ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000069>)
 
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095> (base de canal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095> "base de canal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095> "base de canal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096> (eixo de canal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096> "eixo de canal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096> "eixo de canal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097> (topo de canal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097> "topo de canal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097> "topo de canal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098> (capa de canal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098> "capa de canal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098> "capa de canal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099> (margem de canal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099> "margem de canal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099> "margem de canal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100> (margem de canal proximal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100> "margem de canal proximal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100> "margem de canal proximal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101> (margem de canal intermediária)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101> "margem de canal intermediária"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101> "margem de canal intermediária"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102> (margem de canal distal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102> "margem de canal distal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102> "margem de canal distal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103> (eixo de espraiamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103> "eixo de espraiamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103> "eixo de espraiamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104> (margem de espraiamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104> "margem de espraiamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104> "margem de espraiamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105> (margem de espraiamento proximal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105> "margem de espraiamento proximal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105> "margem de espraiamento proximal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106> (margem de espraiamento intermediária)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106> "margem de espraiamento intermediária"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106> "margem de espraiamento intermediária"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107> (margem de espraiamento distal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107> "margem de espraiamento distal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107> "margem de espraiamento distal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108> (franja de espraiamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108> "franja de espraiamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108> "franja de espraiamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109> (franja de espraiamento proximal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109> "franja de espraiamento proximal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109> "franja de espraiamento proximal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110> (franja de espraiamento intermediária)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110> "franja de espraiamento intermediária"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110> "franja de espraiamento intermediária"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111> (franja de espraiamento distal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111> "franja de espraiamento distal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111> "franja de espraiamento distal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112> (extravasamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112> "extravasamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112> "extravasamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113> (extravasamento proximal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113> "extravasamento proximal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113> "extravasamento proximal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114> (extravasamento intermediário)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114> "extravasamento intermediário"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114> "extravasamento intermediário"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115> (extravasamento distal)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115> "extravasamento distal"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115> "extravasamento distal"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116> (deslizamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116> "deslizamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116> "deslizamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117> (deslizamento arenoso)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117> "deslizamento arenoso"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117> "deslizamento arenoso"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118> (deslizamento heterolítico)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118> "deslizamento heterolítico"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118> "deslizamento heterolítico"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119> (deslizamento lamoso)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119> "deslizamento lamoso"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119> "deslizamento lamoso"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120> (escorregamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120> "escorregamento"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120> "escorregamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121> (escorregamento arenoso)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121> "escorregamento arenoso"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121> "escorregamento arenoso"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122> (escorregamento heterolítico)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122> "escorregamento heterolítico"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122> "escorregamento heterolítico"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123> (escorregamento lamoso)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123> "escorregamento lamoso"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123> "escorregamento lamoso"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124> (detritos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124> "detritos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124> "detritos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125> (detritos cascalhosos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125> "detritos cascalhosos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125> "detritos cascalhosos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126> (detritos arenosos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126> "detritos arenosos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126> "detritos arenosos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127> (detritos heterolíticos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127> "detritos heterolíticos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127> "detritos heterolíticos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128> (detritos lamosos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128> "detritos lamosos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128> "detritos lamosos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129> (lençóis)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129> "lençóis"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129> "lençóis"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130> (lençóis arenosos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130> "lençóis arenosos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130> "lençóis arenosos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131> (lençóis heterolíticos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131> "lençóis heterolíticos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131> "lençóis heterolíticos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132> (lençóis lamosos)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132> "lençóis lamosos"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132> "lençóis lamosos"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133> (acobertamento)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133> "acobertamento"@en)
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133> "acobertamento"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133>)
+
+# Individual: <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134> (lençóis condensados)
+
+AnnotationAssertion(rdfs:label <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134> "lençóis condensados"@en)
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#altLabel> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134> "lençóis condensados"@pt-br)
+ClassAssertion(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134>)
+
 
 DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000007> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000009> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000011> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000012> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000013> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000014> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000015> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000016> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000017>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000007> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000009> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000011> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000012> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000013> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000014> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000015> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000016> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000017> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000035> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000036> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000037> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083>)
 DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000013> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000014> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000015>)
 DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000032> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000033> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000034>)
 DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000035> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000036> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000037>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081>)
+DisjointClasses(<https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085> <https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086>)
 )
