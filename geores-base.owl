@@ -12,7 +12,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:ontologies="https://www.inf.ufrgs.br/bdi/ontologies/">
     <owl:Ontology rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/geores/geores-base.owl">
-        <owl:versionIRI rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/geores/releases/2024-04-07/geores-base.owl"/>
+        <owl:versionIRI rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/geores/releases/2024-10-14/geores-base.owl"/>
         <dce:contributor>Alcides Lopes</dce:contributor>
         <dce:contributor>Fabrício Henrique Rodrigues</dce:contributor>
         <dce:contributor>Fernando Cicconeto</dce:contributor>
@@ -41,7 +41,7 @@
 10. Rovetto, R.: The shape of shapes: An ontological exploration. In: Hastings, J., Kutz, O., Bhatt, M., Borgo, S. (eds.) Proceedings of the First Interdisciplinary Workshop on SHAPES. Karlsruhe (2011), http://ceur-ws.org/Vol-812/
 11. Walker, R.G., James, N.P.: Facies Models: Response to Sea Level Change. Geological Association of Canada, St. John’s (1992)</rdfs:comment>
         <rdfs:comment xml:lang="en">We acknowledge the Brazilian funding agencies CNPq and CAPES for financing this work and the Research Centre of Petrobras (CENPES) for collaborating on this project.</rdfs:comment>
-        <owl:versionInfo>2024-04-07</owl:versionInfo>
+        <owl:versionInfo>2024-10-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -201,6 +201,8 @@
 
     <owl:ObjectProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000044">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000026"/>
+        <rdfs:range rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000041"/>
         <rdfs:label xml:lang="en">has contact position</rdfs:label>
     </owl:ObjectProperty>
     
@@ -210,6 +212,8 @@
 
     <owl:ObjectProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000045">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000026"/>
+        <rdfs:range rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000043"/>
         <rdfs:label xml:lang="en">has contact type</rdfs:label>
     </owl:ObjectProperty>
     
@@ -218,6 +222,8 @@
     <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000046 -->
 
     <owl:ObjectProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000046">
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000023"/>
+        <rdfs:range rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000042"/>
         <rdfs:comment xml:lang="pt">Luan: Geometry Type talvez seja uma classe de segunda ordem cuja as instâncias são os diferentes tipos de Geometria. Por exemplo, é errado dizer que Geometria Lenticular é subtipo da Quality Geometria. Lenticular é na realidade um subtipo de Tipo de Geometria e não de Geometria.</rdfs:comment>
         <rdfs:label xml:lang="en">has geometry type</rdfs:label>
     </owl:ObjectProperty>
@@ -257,6 +263,7 @@
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000049">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a Quality and its values.</obo:IAO_0000115>
         <rdfs:comment xml:lang="pt">O objetivo desta data property é conectar em níveL de implementação uma qualidade com o valor em seu espaço de qualiades. Por exemplo, a qualidade dimensão tem um espaço de qualidade que é um valor real positivo para sua largura.
 
@@ -270,6 +277,7 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000070">
         <rdfs:subPropertyOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000049"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000022"/>
         <rdfs:label xml:lang="en">has dimension value</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -279,6 +287,8 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000071">
         <rdfs:subPropertyOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000070"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">has lenght value</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -288,6 +298,8 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000072">
         <rdfs:subPropertyOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000070"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <obo:IAO_0000115 xml:lang="en">A relation between a Quality and a literal string that represents its measurement unit.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has measurement unit</rdfs:label>
     </owl:DatatypeProperty>
@@ -298,6 +310,8 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000073">
         <rdfs:subPropertyOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000070"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">has thickness value</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -307,6 +321,8 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
 
     <owl:DatatypeProperty rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000074">
         <rdfs:subPropertyOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000070"/>
+        <rdfs:domain rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label xml:lang="en">has width value</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -320,6 +336,12 @@ A IAO possui uma propriedade has measurement datum cujo domínio é um measureme
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"/>
     
 
 
@@ -542,7 +564,7 @@ Um elemento pode ter outro elemento como parte, desde que de uma escala menor.</
     <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010">
         <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
         <rdfs:label xml:lang="en">dune unit</rdfs:label>
-        <skos:altLabel xml:lang="pt">duna</skos:altLabel>
+        <skos:altLabel xml:lang="pt-br">campo de dunas</skos:altLabel>
     </owl:Class>
     
 
@@ -1034,6 +1056,7 @@ https://www.britannica.com/science/metamorphic-rock</rdfs:isDefinedBy>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:label xml:lang="en">contact position</rdfs:label>
         <skos:altLabel xml:lang="pt">posição do contato</skos:altLabel>
     </owl:Class>
@@ -1057,6 +1080,7 @@ https://www.britannica.com/science/metamorphic-rock</rdfs:isDefinedBy>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:comment xml:lang="pt">Luan: Talvez tipo de Geometria seja uma classe de segunda ordem, mas em primeiro momento não utilizaremos punning para representar isto. A classe geometry tem uma relação de &apos;has geometry type&apos; com um &apos;geometry type&apos; e as instâncias dessa classe é que definem o tipo de geometria de fato. Caso seja necessário criar alguma subclasse de um &apos;body of rock&apos; que tenha um &apos;geometry type&apos; específico é possível utilizar a primitiva do owl value para isto.
 
 Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?</rdfs:comment>
@@ -1083,8 +1107,214 @@ Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?</rd
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:label xml:lang="en">contact type</rdfs:label>
         <skos:altLabel xml:lang="pt">tipo de contato</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">extravasamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000076">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089"/>
+        <owl:disjointWith rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077"/>
+        <rdfs:label xml:lang="en">extravasamento interno conectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento interno conectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000077">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089"/>
+        <rdfs:label xml:lang="en">extravasamento externo conectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento externo conectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">espraiamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">espraiamento</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078"/>
+        <rdfs:label xml:lang="en">espraiamento lateral</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">espraiamento lateral</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078"/>
+        <rdfs:label xml:lang="en">espraiamento terminal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">espraiamento terminal</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078"/>
+        <rdfs:label xml:lang="en">espraiamento capturado</rdfs:label>
+        <rdfs:label xml:lang="pt-br">espraiamento capturado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">mass transport deposit</rdfs:label>
+        <rdfs:label xml:lang="pt-br">transporte de massa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">acobertamento</rdfs:label>
+        <rdfs:label xml:lang="pt-br">acobertamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008"/>
+        <owl:disjointWith rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085"/>
+        <rdfs:label xml:lang="en">canal degradacional</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">canal degradacional</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008"/>
+        <rdfs:label xml:lang="en">canal agradacional</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">canal agradacional</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008"/>
+        <rdfs:label xml:lang="en">canal neutro</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">canal neutro</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000087">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">cunha de contorno</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">cunha de contorno</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000088">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000006"/>
+        <rdfs:label xml:lang="en">zona de transição canal-espraiamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">zona de transição canal-espraiamento</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000089">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075"/>
+        <owl:disjointWith rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090"/>
+        <rdfs:label xml:lang="en">extravasamento conectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento conectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075"/>
+        <rdfs:label xml:lang="en">extravasamento descontectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento descontectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000091">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090"/>
+        <owl:disjointWith rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092"/>
+        <rdfs:label xml:lang="en">extravasamento interno descontectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento interno descontectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000092">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000090"/>
+        <rdfs:label xml:lang="en">extravasamento externo desconectado</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento externo desconectado</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000093">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083"/>
+        <owl:disjointWith rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094"/>
+        <rdfs:label xml:lang="en">acobertamento local</rdfs:label>
+        <rdfs:label xml:lang="pt-br">acobertamento local</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094 -->
+
+    <owl:Class rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000094">
+        <rdfs:subClassOf rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083"/>
+        <rdfs:label xml:lang="en">acobertamento regional</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">acobertamento regional</skos:altLabel>
     </owl:Class>
     
 
@@ -1290,6 +1520,406 @@ Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?</rd
     
 
 
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000095">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">base de canal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">base de canal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000096">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">eixo de canal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">eixo de canal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000097">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">topo de canal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">topo de canal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000098">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">capa de canal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">capa de canal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000099">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de canal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de canal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000100">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de canal proximal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de canal proximal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000101">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de canal intermediária</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de canal intermediária</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000102">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de canal distal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de canal distal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000103">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">eixo de espraiamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">eixo de espraiamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000104">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de espraiamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de espraiamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000105">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de espraiamento proximal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de espraiamento proximal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000106">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de espraiamento intermediária</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de espraiamento intermediária</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000107">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">margem de espraiamento distal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">margem de espraiamento distal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000108">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">franja de espraiamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">franja de espraiamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000109">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">franja de espraiamento proximal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">franja de espraiamento proximal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000110">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">franja de espraiamento intermediária</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">franja de espraiamento intermediária</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000111">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">franja de espraiamento distal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">franja de espraiamento distal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000112">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">extravasamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000113">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">extravasamento proximal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento proximal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000114">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">extravasamento intermediário</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento intermediário</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000115">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">extravasamento distal</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">extravasamento distal</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000116">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">deslizamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">deslizamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000117">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">deslizamento arenoso</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">deslizamento arenoso</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000118">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">deslizamento heterolítico</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">deslizamento heterolítico</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000119">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">deslizamento lamoso</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">deslizamento lamoso</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000120">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">escorregamento</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">escorregamento</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000121">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">escorregamento arenoso</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">escorregamento arenoso</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000122">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">escorregamento heterolítico</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">escorregamento heterolítico</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000123">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">escorregamento lamoso</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">escorregamento lamoso</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000124">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">detritos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">detritos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000125">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">detritos cascalhosos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">detritos cascalhosos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000126">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">detritos arenosos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">detritos arenosos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000127">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">detritos heterolíticos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">detritos heterolíticos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000128">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">detritos lamosos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">detritos lamosos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000129">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">lençóis</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">lençóis</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000130">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">lençóis arenosos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">lençóis arenosos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000131">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">lençóis heterolíticos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">lençóis heterolíticos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000132">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">lençóis lamosos</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">lençóis lamosos</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000133">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">acobertamento</rdfs:label>
+        <rdfs:label xml:lang="pt-br">acobertamento</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134 -->
+
+    <owl:NamedIndividual rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000134">
+        <rdf:type rdf:resource="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000030"/>
+        <rdfs:label xml:lang="en">lençóis condensados</rdfs:label>
+        <skos:altLabel xml:lang="pt-br">lençóis condensados</skos:altLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1317,6 +1947,29 @@ Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?</rd
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000007"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000009"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000010"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000011"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000012"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000013"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000014"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000015"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000016"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000017"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000035"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000036"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000037"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000075"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000078"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000082"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000083"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000008"/>
             <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000013"/>
             <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000014"/>
@@ -1339,9 +1992,25 @@ Não sabemos ainda como classificar esta classe. Do que ela seria subclasse?</rd
             <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000037"/>
         </owl:members>
     </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000079"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000080"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000081"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000084"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000085"/>
+            <rdf:Description rdf:about="https://www.inf.ufrgs.br/bdi/ontologies/GEORES_0000086"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
